@@ -5,7 +5,7 @@
       padding-bottom: {{ section.settings.bottom_padding }}px;
   }
 {% endstyle %}
-
+<div class="pt-pb">
 <div class="custom-container1">
   {% for block in section.blocks %}
     {% case block.type %}
@@ -26,6 +26,7 @@
         </div>
     {% endcase %}
   {% endfor %}
+</div>
 </div>
 {% schema %}
 {
