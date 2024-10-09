@@ -1,5 +1,4 @@
 .custom-container1{
-    height: 196px;
     width: 100%;
     gap: 37px;
     display: flex;
@@ -10,6 +9,7 @@
 .block-size{
     height:  196px;
     opacity: 0px;
+    margin-right: 37px;
 }
 .block-size-1{
     height:  196px;
