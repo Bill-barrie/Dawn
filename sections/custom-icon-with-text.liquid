@@ -12,11 +12,10 @@
       {% when "customBlock" %}
         <div class="block-size">
           <div class="image">
-            url: {{ block.settings.image }}
-              {% comment %} {{ block.settings.image  
-                | image_url
-                | image_tag 
-              }} {% endcomment %}
+            {{ block.settings.image  
+              | image_url
+              | image_tag 
+            }}
           </div>
           <div class="content">
             <div class="title">
