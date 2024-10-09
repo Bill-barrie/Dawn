@@ -82,7 +82,7 @@
         "custom_block_6Pm63a": {
           "type": "customBlock",
           "settings": {
-            "imageText": "Vector",
+            "imageText": "shopify://shop_images/Vector.png",
             "title": "Free shipping worldwide",
             "description": "Free shipping worldwide on orders over USD 30.00"
           }
@@ -90,7 +90,7 @@
         "custom_block_3Rak8G": {
           "type": "customBlock",
           "settings": {
-            "imageText": "ddd",
+            "imageText": "shopify://shop_images/2_1.png",
             "title": "Free returns",
             "description": "Not 100% satisfied? return within 45 days of purchase with absolutely zero hassle"
           }
@@ -98,7 +98,7 @@
         "custom_block_EwJRGj": {
           "type": "customBlock",
           "settings": {
-            "imageText": "",
+            "imageText": "shopify://shop_images/2_1.png",
             "title": "Secure payments",
             "description": "Paypal, Google pay, Shop pay, Maestro, Visa, Mastercard, Amex"
           }
@@ -106,7 +106,7 @@
         "custom_block_6nLAnK": {
           "type": "customBlock",
           "settings": {
-            "imageText": "",
+            "imageText": "shopify://shop_images/1.png",
             "title": "We care",
             "description": "We care and donate part our earning to support the planet"
           }
