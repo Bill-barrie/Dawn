@@ -38,7 +38,20 @@
 }
 @media screen and (max-width: 750px) {
     
-   
+    .custom-title{
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 28.68px;
+        text-align: center;
+    
+    }
+    .description{
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 16.81px;
+        text-align: center;
+        
+    }
 }
 @media screen and (min-width: 990px) {
     .custom-container1{
