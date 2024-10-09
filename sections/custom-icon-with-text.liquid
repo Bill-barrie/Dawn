@@ -5,12 +5,14 @@
       padding-bottom: {{ section.settings.bottom_padding }}px;
   }
 {% endstyle %}
+assign padding_multiplier = 1
 
 <div class="custom-container1">
   {% for block in section.blocks %}
     {% case block.type %}
-      {% when "customBlock" %}
-        <div class="block-size">
+      {% when 'customBlock' %}
+
+        <div class="block-size block-size-{{ forloop.index }}">
           <div class="custom-image">
             {{ block.settings.text }}
           </div>
@@ -21,8 +23,8 @@
             <div class="description">
               {{ block.settings.description }}
             </div>
+          </div>
         </div>
-      </div>
     {% endcase %}
   {% endfor %}
 </div>
@@ -32,8 +34,8 @@
   "tag": "section",
   "class": "section",
   "disabled_on": {
-            "groups": ["header", "footer"]
-        },
+    "groups": ["header", "footer"]
+  },
   "blocks": [
     {
       "type": "customBlock",
@@ -73,7 +75,7 @@
         },
         {
           "type": "customBlock"
-        },
+        }
       ]
     }
   ]
