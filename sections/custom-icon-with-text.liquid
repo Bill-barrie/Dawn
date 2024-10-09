@@ -12,12 +12,7 @@
       {% when "customBlock" %}
         <div class="block-size">
           <div class="image">
-            {{ block.settings.image  
-              | image_url: width: 100
-              | image_tag:
-                  width: 100,
-                  height: 100
-            }}
+            {{ block.settings.text }}
             {% comment %} {{
               section.settings.image
               | image_url: width: 3840
@@ -57,9 +52,9 @@
       "limit": 4,
       "settings": [
         {
-          "type": "image_picker",
-          "id": "image",
-          "label": "select image"
+          "type": "text",
+          "id": "imageText",
+          "label": "edit imageText"
         },
         {
           "type": "text",
