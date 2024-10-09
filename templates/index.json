@@ -82,14 +82,15 @@
         "custom_block_6Pm63a": {
           "type": "customBlock",
           "settings": {
-            "image": "shopify://shop_images/Main_b13ad453-477c-4ed1-9b43-81f3345adfd6.jpg",
-            "title": "",
-            "description": ""
+            "imageText": "gg",
+            "title": "ffww",
+            "description": "fftttttttttttttttttttt"
           }
         },
         "custom_block_3Rak8G": {
           "type": "customBlock",
           "settings": {
+            "imageText": "",
             "title": "",
             "description": ""
           }
@@ -97,6 +98,7 @@
         "custom_block_EwJRGj": {
           "type": "customBlock",
           "settings": {
+            "imageText": "",
             "title": "",
             "description": ""
           }
@@ -104,6 +106,7 @@
         "custom_block_6nLAnK": {
           "type": "customBlock",
           "settings": {
+            "imageText": "",
             "title": "",
             "description": ""
           }
