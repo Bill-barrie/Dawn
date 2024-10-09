@@ -1,10 +1,7 @@
 .custom-container1{
-    width: 1600px;
     height: 196px;
-    top: 1186px;
-    left: 156px;
+    width: 100%;
     gap: 37px;
-    opacity: 0px;
     display: flex;
     flex-wrap: wrap;
 }
