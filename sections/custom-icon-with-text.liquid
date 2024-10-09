@@ -12,6 +12,7 @@
       {% when "customBlock" %}
         <div class="block-size">
           <div class="image">
+            {{ block.settings.image }}
             {{ block.settings.image  
               | image_url
               | image_tag 
