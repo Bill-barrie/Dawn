@@ -45,7 +45,7 @@
         margin-left: auto;
     }
     .block-size{
-        gap:  2.42p;
+        gap:  2.42px;
         display: grid;
         grid-template-columns: auto;
     }
