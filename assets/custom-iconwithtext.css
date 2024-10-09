@@ -10,4 +10,8 @@
     display: grid;
     grid-template-columns: auto;
 }
-
+.custom-image{
+    width: 80px;
+    height: 80px;
+    padding: 16.46px 4.05px 16.54px 4.11px;
+}
