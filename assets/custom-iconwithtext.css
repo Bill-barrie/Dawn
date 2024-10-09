@@ -1,0 +1,43 @@
+.container{
+    width: Hug (1,600px)px;
+    height: Hug (196px)px;
+    top: 1186px;
+    left: 156px;
+    gap: 37px;
+    opacity: 0px;
+    
+}
+.block-size{
+    width: Fixed (400px)px;
+    height: Hug (196px)px;
+    gap: 24px;
+    opacity: 0px;
+
+}
+.image{
+    width: 80px;
+    height: 80px;
+    padding: 16.46px 4.05px 16.54px 4.11px;
+    gap: 0px;
+    opacity: 0px;
+}
+.content{
+    width: Fill (400px)px;
+    height: Hug (92px)px;
+    gap: 6px;
+    opacity: 0px;
+}
+.title{
+    width: 403px;
+    height: 38px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+.description{
+    width: 310px;
+    height: 48px;
+    gap: 0px;
+    opacity: 0px;
+
+}
