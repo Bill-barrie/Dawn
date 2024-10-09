@@ -1,0 +1,77 @@
+{{ 'custom-iconwithtext.css' | asset_url | stylesheet_tag }}
+{% style %}
+  .custom-section-{{ section.id }} {
+      padding-top: {{ section.settings.top_padding }}px;
+      padding-bottom: {{ section.settings.bottom_padding }}px;
+  }
+{% endstyle %}
+
+<div class="container">
+  {% for block in section.blocks %}
+    {% case block.type %}
+      {% when "customBlock" %}
+        <div class="block-size">
+          <div class="image">
+              {{ block.settings.image  | image_url| image_tag }}
+          </div>
+          <div class="content">
+            <div class="title">
+              {{ block.settings.title }}
+            </div>
+            <div class="description">
+              {{ block.settings.description }}
+            </div>
+        </div>
+        </div>
+        <div>
+    {% endcase %}
+  {% endfor %}
+</div>
+{% schema %}
+{
+  "name": "Icon with text",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "header",
+      "label": "Header"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "customBlock",
+      "name": "Icon with text",
+      "limit": 4,
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "select image"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "edit title"
+        },
+        {
+          "type": "text",
+          "id": "description",
+          "label": "edit description"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "preset",
+      "blocks": [
+        {
+          "type": "customBlock"
+        },
+      ]
+    }
+  ]
+}
+{% endschema %}
