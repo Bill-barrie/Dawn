@@ -10,7 +10,7 @@
 .block-size{
     width:400px;
     height:  196px;
-    gap: 24px;
+    margin-right: 24px;
     opacity: 0px;
 
 }
