@@ -5,7 +5,7 @@
     left: 156px;
     gap: 37px;
     opacity: 0px;
-    flex:'flex-containers'
+    display: flex;
 }
 .block-size{
     width:400px;
