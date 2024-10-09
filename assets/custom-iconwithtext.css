@@ -10,7 +10,6 @@
 .block-size{
     height:  196px;
     opacity: 0px;
-   
 }
 .block-size-1{
     height:  196px;
@@ -64,4 +63,9 @@
     .custom-container1 {
       width: 327.55px;
     }
+    .block-size-1{
+        height:  87.11px;
+        width:  161.42px;
+    }
   }
+  
