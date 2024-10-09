@@ -35,11 +35,8 @@
 }
 .custom-content{
     width: 100%;
-    gap: 6px;
 }
 .custom-title{
-    gap: 0px;
-    opacity: 0px;
     font-family: Avenir LT Std;
     font-size: 32px;
     font-weight: 400;
@@ -47,8 +44,6 @@
     text-align: center;
     margin-bottom: 6px;
     color:  #8E5D2E;
-    ;
-
 }
 .description{
     font-family: Avenir LT Std;
