@@ -1,0 +1,112 @@
+{{ 'custom-text.css' | asset_url | stylesheet_tag }}
+
+{% style %}
+    .custom-section-{{ section.id }} {
+        padding-top: "{{ section.settings.top_padding }}px";
+        padding-bottom: "{{ section.settings.bottom_padding }}px";
+    }
+{% endstyle %}
+
+<div class="custom-text custom-section-{{ section.id }}">
+    <div class="custom-text container">
+        {% for block in section.blocks %}
+            {% case block.type %}
+                {% when 'text' %}
+
+                    {% style %}
+                        .custom-text_text {
+                            font-size: "{{ block.settings.custom_font_size }}px";
+                            color: "{{ block.settings.custom_font_color }}";
+                        }
+                    {% endstyle %}
+
+                    <div class="custom-text custom-text_text">
+                        {{ block.settings.custom__text }}
+                    </div>
+            {% endcase %}
+        {% endfor %}
+    </div>
+</div>
+
+{% schema %}
+    {
+        "name": "t:sections.custom_text.name",
+        "tag": "section",
+        "class": "section",
+        "disabled_on": {
+            "groups": ["header", "footer"]
+        },
+        "settings": [
+            {
+                "type": "header",
+                "content": "Section Padding"
+            },
+            {
+                "type": "range",
+                "id": "top_padding",
+                "label": "Top padding",
+                "info": "Top padding of this section",
+                "unit": "px",
+                "step": 20,
+                "min": 20,
+                "max": 100,
+                "default": 60
+            },
+            {
+                "type": "range",
+                "id": "bottom_padding",
+                "label": "Bottom padding",
+                "info": "Bottom padding of this section",
+                "unit": "px",
+                "step": 20,
+                "min": 20,
+                "max": 100,
+                "default": 60
+            }
+        ],
+        "blocks": [
+            {
+                "type": "text",
+                "name": "Custom text block",
+                "limit": 3,
+                "settings": [
+                    {
+                        "type": "text",
+                        "id": "custom__text",
+                        "label": "Custom Text"
+                    },
+                    {
+                        "type": "range",
+                        "id": "custom_font_size",
+                        "label": "Font Size",
+                        "unit": "px",
+                        "step": 2,
+                        "min": 14,
+                        "max": 40,
+                        "default": 20
+                    },
+                    {
+                        "type": "color",
+                        "id": "custom_font_color",
+                        "label": "Font Color",
+                        "default": "#000"
+                    }
+                ]
+            }
+        ],
+        "presets": [
+            {
+                "name": "Custom Text Section",
+                "blocks": [
+                    {
+                        "type": "text"
+                    },
+                    {
+                        "type": "text"
+                    }
+                ]
+            }
+        ]
+
+    }
+{% endschema %}
