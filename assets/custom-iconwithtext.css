@@ -14,14 +14,14 @@
     opacity: 0px;
 
 }
-.image{
+.custom-image{
     width: 80px;
     height: 80px;
     padding: 16.46px 4.05px 16.54px 4.11px;
     gap: 0px;
     opacity: 0px;
 }
-.content{
+.custom-content{
     width: 400px;
     height: 92px;
     gap: 6px;
