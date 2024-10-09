@@ -1,11 +1,11 @@
-.container{
+.custom-container1{
     width: 1,600px;
     height: 196px;
     top: 1186px;
     left: 156px;
     gap: 37px;
     opacity: 0px;
-    
+    flex:'flex-containers'
 }
 .block-size{
     width:400px;
