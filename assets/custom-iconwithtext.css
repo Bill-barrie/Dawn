@@ -40,5 +40,7 @@
     .custom-container1{
         display: grid;
         grid-template-columns: auto auto;
+        padding: 15px 34.45px 15px 28px;
+        gap: 16px;
     }
 }
