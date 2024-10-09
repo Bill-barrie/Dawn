@@ -47,7 +47,7 @@
     .block-size{
         gap:  2.42px;
         display: grid;
-        grid-template-columns: auto;
+        grid-template-columns: auto auto;
     }
     .custom-title{
         font-size: 24px;
