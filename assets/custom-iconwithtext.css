@@ -43,4 +43,10 @@
         padding: 15px 34.45px 15px 28px;
         gap: 16px;
     }
+    .custom-image{
+        width: 32px;
+        height: 32px;
+        margin-right: auto;
+        margin-left: auto;
+    }
 }
