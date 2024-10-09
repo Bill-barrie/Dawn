@@ -58,6 +58,7 @@
 @media screen and (max-width: 768px ) {
     .custom-container1 {
       width: 327.55px;
+      gap: 0;
     }
     .block-size-1{
         height:  87.11px;
