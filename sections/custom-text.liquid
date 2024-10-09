@@ -2,8 +2,8 @@
 
 {% style %}
     .custom-section-{{ section.id }} {
-        padding-top: "{{ section.settings.top_padding }}px";
-        padding-bottom: "{{ section.settings.bottom_padding }}px";
+        padding-top: {{ section.settings.top_padding }}px;
+        padding-bottom: {{ section.settings.bottom_padding }}px;
     }
 {% endstyle %}
 
@@ -15,8 +15,8 @@
 
                     {% style %}
                         .custom-text_text-{{ block.id }} {
-                            font-size: "{{ block.settings.custom_font_size }}px";
-                            color: "{{ block.settings.custom_font_color }}";
+                            font-size: {{ block.settings.custom_font_size }}px;
+                            color: {{ block.settings.custom_font_color }};
                         } 
                     {% endstyle %}
 
