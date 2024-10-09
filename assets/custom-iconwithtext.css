@@ -8,9 +8,22 @@
 
  
 .block-size{
-    width:400px;
     height:  196px;
-    
+    opacity: 0px;
+}
+.block-size-1{
+    width:372px;
+    height:  196px;
+    opacity: 0px;
+}
+.block-size-2{
+    width:355px;
+    height:  196px;
+    opacity: 0px;
+}
+.block-size{
+    width: 362px;;
+    height:  196px;
     opacity: 0px;
 }
 .custom-image{
