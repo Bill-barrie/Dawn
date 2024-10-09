@@ -1,6 +1,6 @@
 .container{
-    width: Hug (1,600px)px;
-    height: Hug (196px)px;
+    width: 1,600px;
+    height: 196px;
     top: 1186px;
     left: 156px;
     gap: 37px;
@@ -8,8 +8,8 @@
     
 }
 .block-size{
-    width: Fixed (400px)px;
-    height: Hug (196px)px;
+    width:400px;
+    height:  196px;
     gap: 24px;
     opacity: 0px;
 
@@ -22,8 +22,8 @@
     opacity: 0px;
 }
 .content{
-    width: Fill (400px)px;
-    height: Hug (92px)px;
+    width: 400px;
+    height: 92px;
     gap: 6px;
     opacity: 0px;
 }
