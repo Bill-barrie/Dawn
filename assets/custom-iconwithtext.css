@@ -67,5 +67,17 @@
         height:  87.11px;
         width:  161.42px;
     }
+    .custom-image{
+        width: 32px;
+        height: 32px;
+        padding: 6.58px 1.62px 6.61px 1.64px;
+    }
+    .custom-title{
+        font-family: Calibri;
+        font-size: 12.91px;
+        font-weight: 400;
+        line-height: 15.21px;
+        text-align: center;
+    }
   }
   
