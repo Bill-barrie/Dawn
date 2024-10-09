@@ -26,7 +26,7 @@
     font-weight: 400;
     line-height: 37.68px;
     text-align: center;
-
+    color:  #8E5D2E;
 }
 .description{
     font-family: Avenir LT Std;
@@ -34,7 +34,8 @@
     font-weight: 400;
     line-height: 23.81px;
     text-align: center;
-    
+    color: #8E5D2E9E;
+
 }
 @media screen and (max-width: 750px) {
     
