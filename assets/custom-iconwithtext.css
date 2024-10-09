@@ -3,14 +3,14 @@
     gap: 37px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content:  space-evenly;
 }
 
  
 .block-size{
     height:  196px;
     opacity: 0px;
-    margin-right: 37px;
+   
 }
 .block-size-1{
     height:  196px;
