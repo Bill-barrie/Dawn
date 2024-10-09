@@ -13,7 +13,7 @@
 
         <div class="block-size block-size-{{ forloop.index }}">
           <div class="custom-image">
-            {{ block.settings.imageText | image_url: width: 60
+            {{ block.settings.imageText | image_url: width: "auto"
               | image_tag }}
           </div>
           <div class="custom-content">
