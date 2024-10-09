@@ -380,6 +380,9 @@
     }
   },
   "sections": {
+    "custom_text": {
+      "name": "Custom Text"
+    },
     "all": {
       "animation": {
         "content": "Animations",
