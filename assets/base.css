@@ -2245,10 +2245,11 @@ input[type='checkbox'] {
 }
 
 .announcement-bar__message {
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 21.6px;
-  text-align: left;
+  text-align: center;
+  padding: 1rem 0;
+  margin: 0;
+  letter-spacing: 0.1rem;
+  min-height: 3.8rem;
 }
 
 .announcement-bar-slider--fade-in-next .announcement-bar__message,
