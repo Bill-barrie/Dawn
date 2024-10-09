@@ -12,7 +12,7 @@
     height:  196px;
     margin-right: 24px;
     opacity: 0px;
-
+    flex: 'flex-container';
 }
 .custom-image{
     width: 80px;
