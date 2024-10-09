@@ -36,3 +36,9 @@
     text-align: center;
     
 }
+@media screen and (min-width: 750px) {
+    .custom-container1{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+}
