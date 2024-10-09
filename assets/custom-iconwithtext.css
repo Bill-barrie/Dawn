@@ -53,15 +53,21 @@
 }
 @media screen and (min-width: 990px) {
     .custom-container1{
-        padding: 0 5rem;
         gap: 16px;
+    }
+}
+@media screen and (min-width: 750px) {
+    .custom-container1{
+    padding: 15px 34.45px 15px 28px;
+
     }
 }
 @media screen and (max-width: 990px){
     .custom-container1{
         display: grid;
         grid-template-columns: auto auto;
-        padding: 15px 34.45px 15px 28px;
         gap: 16px;
+        padding: 0 5rem;
+
     }
 }
