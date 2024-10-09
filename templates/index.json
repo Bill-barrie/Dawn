@@ -99,16 +99,16 @@
           "type": "customBlock",
           "settings": {
             "imageText": "",
-            "title": "",
-            "description": ""
+            "title": "Secure payments",
+            "description": "Paypal, Google pay, Shop pay, Maestro, Visa, Mastercard, Amex"
           }
         },
         "custom_block_6nLAnK": {
           "type": "customBlock",
           "settings": {
             "imageText": "",
-            "title": "",
-            "description": ""
+            "title": "We care",
+            "description": "We care and donate part our earning to support the planet"
           }
         }
       },
