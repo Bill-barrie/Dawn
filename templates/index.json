@@ -90,9 +90,9 @@
         "text_V4jzKb": {
           "type": "text",
           "settings": {
-            "custom__text": "",
+            "custom__text": "Custom text block",
             "custom_font_size": 20,
-            "custom_font_color": "#000"
+            "custom_font_color": "#000000"
           }
         }
       },
