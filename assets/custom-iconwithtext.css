@@ -2,5 +2,12 @@
     display: grid;
     grid-template-columns: auto auto auto auto;
     padding: 45px 156px;
-    
+    gap: 24px;
+
 }
+.block-size{
+    gap: 24px;
+    display: grid;
+    grid-template-columns: auto;
+}
+
