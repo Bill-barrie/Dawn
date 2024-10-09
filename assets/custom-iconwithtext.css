@@ -52,6 +52,13 @@
         text-align: center;
         
     }
+    .custom-image{
+        width: 32px;
+        height: 32px;
+        padding: 16.46px 4.05px 16.54px 4.11px;
+        margin-right: auto;
+        margin-left: auto;
+    }
 }
 @media screen and (min-width: 990px) {
     .custom-container1{
