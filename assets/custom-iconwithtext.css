@@ -79,5 +79,12 @@
         line-height: 15.21px;
         text-align: center;
     }
+    .description{
+        font-family: Avenir LT Std;
+        font-size: 8.07px;
+        font-weight: 400;
+        line-height: 9.61px;
+        text-align: center;
+    }
   }
   
