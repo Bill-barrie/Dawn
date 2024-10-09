@@ -39,8 +39,8 @@
 @media screen and (max-width: 750px) {
     
     .custom-image{
-        width: 32px;
-        height: 32px;
+        width: 24px;
+        height: 24px;
         margin-right: auto;
         margin-left: auto;
     }
@@ -48,6 +48,20 @@
         gap:  2.42p;
         display: grid;
         grid-template-columns: auto;
+    }
+    .custom-title{
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 27.68px;
+        text-align: center;
+    
+    }
+    .description{
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 23.81px;
+        text-align: center;
+        
     }
    
 }
