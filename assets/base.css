@@ -3600,6 +3600,8 @@ details-disclosure > details {
 @font-face {
   font-family: "BaseNeue";
    src: url("https://cdn.shopify.com/s/files/1/0721/5431/7049/files/BaseNeue-Condensed.ttf?v=1728570432") format("ttf"),
-   url("https://cdn.shopify.com/s/files/1/0721/5431/7049/files/BaseNeue-Condensed.woff?v=1728572654") format("woff")
-   url("https://cdn.shopify.com/s/files/1/0721/5431/7049/files/BaseNeue-Condensed.woff2?v=1728572654") format("woff2")
+   url("https://cdn.shopify.com/s/files/1/0721/5431/7049/files/BaseNeue-Condensed.woff?v=1728572654") format("woff"),
+   url("https://cdn.shopify.com/s/files/1/0721/5431/7049/files/BaseNeue-Condensed.woff2?v=1728572654") format("woff2");
+   font-weight: normal;
+   font-size: normal;
 }
