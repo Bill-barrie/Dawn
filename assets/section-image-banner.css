@@ -77,6 +77,10 @@
     width: 0px;
     height: 0px;
   }
+  .banner__logo__image > img{
+    width: 150px;
+    height: 130px;
+  }
 }
 
 .banner__box {
