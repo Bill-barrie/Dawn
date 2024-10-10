@@ -66,6 +66,9 @@
         margin-right: auto;
         margin-left: auto;
     }
+    .block-size{
+        gap: 0px;
+    }
     
 }
 @media screen and (min-width: 990px) {
