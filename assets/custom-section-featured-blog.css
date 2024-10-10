@@ -9,7 +9,7 @@
 @media screen and (min-width: 990px) {
  
     .custom__blog_post{
-        width: calc(33.33% - var(--grid-desktop-horizontal-spacing)*  6/ 10)!important;
-        max-width: calc(33.33% - var(--grid-desktop-horizontal-spacing)* 6 / 10)!important;
+        width: calc(33.33% - var(--grid-desktop-horizontal-spacing)*  7/ 11)!important;
+        max-width: calc(33.33% - var(--grid-desktop-horizontal-spacing)* 7 / 11)!important;
     }
 }
