@@ -12,6 +12,12 @@
     "image_banner": {
       "type": "image-banner",
       "blocks": {
+        "logo_hrYReU": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/snowboard_wax.png"
+          }
+        },
         "heading": {
           "type": "heading",
           "settings": {
@@ -28,18 +34,12 @@
             "button_link_2": "",
             "button_style_secondary_2": false
           }
-        },
-        "logo_hrYReU": {
-          "type": "logo",
-          "settings": {
-            "logo": "shopify://shop_images/snowboard_wax.png"
-          }
         }
       },
       "block_order": [
+        "logo_hrYReU",
         "heading",
-        "button",
-        "logo_hrYReU"
+        "button"
       ],
       "settings": {
         "image_overlay_opacity": 40,
