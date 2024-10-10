@@ -6,11 +6,7 @@
 
 }
 .block-size{
-    gap: 24px;
-    display: grid;
-    text-align: center;
-    align-items: start; /* Aligns items at the start */
-    grid-template-columns: auto;
+ 
 }
 .custom-image{
     width: 80px;
@@ -18,6 +14,7 @@
     padding: 16.46px 4.05px 16.54px 4.11px;
     margin-right: auto;
     margin-left: auto;
+    margin-bottom: 10px;
 }
 .custom-content{
     Gap :6px;
