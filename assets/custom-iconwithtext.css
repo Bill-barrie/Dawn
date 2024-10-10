@@ -20,6 +20,9 @@
 }
 .custom-content{
     Gap :6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
 }
 .custom-title{
     font-family: Avenir LT Std;
