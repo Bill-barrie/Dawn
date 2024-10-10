@@ -146,6 +146,8 @@
   .custom__banner__heading {
     width: 300px;
     text-wrap: balance;
+    left: 25px;
+        margin-top: 17px;
   }
   .banner__heading {
     font-size: 30px;
@@ -160,10 +162,7 @@
     width: 124px;
     margin-top: 6%;
   }
-  .custom__banner__heading{
-    left: 32px;
-    margin-top: 30px;
-  }
+ 
   .banner__logo__image {
     width: auto;
     height: auto;
