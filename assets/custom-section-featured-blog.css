@@ -6,3 +6,10 @@
 .custom__page__width{
     padding: 100px 158px !important;
 }
+@media screen and (min-width: 990px) {
+ 
+    .custom__blog_post{
+        width: calc(33.33% - var(--grid-desktop-horizontal-spacing)*  3/ 4)!important;
+        max-width: calc(33.33% - var(--grid-desktop-horizontal-spacing)* 2 / 3)!important;
+    }
+}
