@@ -480,6 +480,9 @@
   border: 1px 0px 0px 0px;
 
 }
+.banner__buttons > button{
+  width: 178px;
+}
 
 @media screen and (max-width: 749px) {
   .banner--content-align-mobile-right .banner__buttons--multiple {
