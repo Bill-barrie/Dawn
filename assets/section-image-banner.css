@@ -6,7 +6,13 @@
   isolation: isolate;
 }
 .custom__banner__heading{
-  
+
+}
+.custom__contents{
+  width: 1022px;
+  height: 429.61px;
+  gap: 60px;
+  display: flex;
 }
 .banner__box {
   text-align: center;
