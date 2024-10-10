@@ -457,6 +457,7 @@
   text-align: left;
   color: #FFFFFF;
   -webkit-text-stroke: 1px #8E5D2E; /* width and color */
+  display: ruby-text;
 }
 
 .banner__box .banner__heading + * {
