@@ -131,8 +131,8 @@
       "type": "featured-blog",
       "settings": {
         "heading": "Blog posts",
-        "heading_padding_left": 100,
-        "heading_padding_right": 100,
+        "heading_padding_left": 10,
+        "heading_padding_right": 10,
         "heading_size": "h0",
         "blog": "",
         "post_limit": 3,
