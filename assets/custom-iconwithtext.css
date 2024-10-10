@@ -112,6 +112,10 @@
     line-height: 9.61px;
     text-align: center;
     }
+    .custom-content{
+        Gap :6px;
+        min-height: 0px;
+    }
 }
 @media screen and (max-width: 550px) {
     .custom-image>img {
