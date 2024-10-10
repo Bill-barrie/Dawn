@@ -490,6 +490,17 @@
 
 }
 
+@media screen and (max-width: 1300px) {
+  .banner__heading {
+    font-size: 40px;
+    font-weight: 650;
+    line-height: 56.76px;
+    transform: translate(50,50);
+  }
+  
+
+}
+
 @media screen and (max-width: 749px) {
   .banner--content-align-mobile-right .banner__buttons--multiple {
     justify-content: flex-end;
