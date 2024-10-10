@@ -1,34 +1,126 @@
-.custom-container1 {
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  .block-size {
+.custom-container1{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Adjusted shorthand for 4 equal columns */
+    padding: 45px 156px;
+    gap: 24px;
+
+}
+.block-size{
+   
     display: flex;
     flex-direction: column;
-    align-items: center;
+    justify-content: space-between; /* Ensure content is distributed evenly */
     text-align: center;
-    width: 22%; /* Adjust according to your layout needs */
-  }
-  
-  .custom-image {
-    margin-bottom: 10px; /* Adjust spacing as needed */
-  }
-  
-  .custom-content {
-    flex-grow: 1; /* Ensures content stretches equally */
+    height: 100%; /* Ensure each block is the same height */
+}
+.custom-image{
+    width: 80px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.custom-content{
+    Gap :6px;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start; /* Aligns title at the top */
-  }
-  
-  .custom-title {
-    font-size: 18px; /* Adjust font size as needed */
-    margin-bottom: 8px; /* Consistent spacing below title */
-  }
-  
-  .description {
-    font-size: 14px; /* Adjust font size as needed */
-    line-height: 1.4;
-  }
-  
+    justify-content: flex-start; 
+    min-height: 150px;
+}
+.custom-title{
+    font-family: Avenir LT Std;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 37.68px;
+    text-align: center;
+    color:  #8E5D2E;
+}
+.description{
+    font-family: Avenir LT Std;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.81px;
+    text-align: center;
+    color: #8E5D2E9E;
+
+}
+@media screen and (max-width: 750px) {
+    
+    .custom-title{
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 28.68px;
+        text-align: center;
+    
+    }
+    .description{
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 16.81px;
+        text-align: center;
+        
+    }
+    .custom-image>img{
+        width: 50px;
+        height: auto;
+        padding: 0px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .custom-image{
+        width:auto;
+        padding: 0px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .block-size{
+        gap: 0px;
+    }
+    .custom-content{
+        min-height: 80px;
+    }
+    
+}
+@media screen and (min-width: 990px) {
+    .custom-container1{
+        gap: 16px;
+    }
+}
+@media screen and (min-width: 750px) {
+    .custom-container1{
+
+    }
+}
+@media screen and (max-width: 990px){
+    .custom-container1{
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 16px;
+        padding: 0 9rem;
+
+    }
+}
+@media screen and (max-width: 550px) {
+    .custom-title{
+    font-size: 12.91px;
+    font-weight: 400;
+    line-height: 15.21px;
+    text-align: center;
+    }
+    .custom-container1{
+        padding: 0 24px;
+    }
+    .description{
+    font-size: 8.07px;
+    font-weight: 400;
+    line-height: 9.61px;
+    text-align: center;
+    }
+}
+@media screen and (max-width: 550px) {
+    .custom-image>img {
+        width: 32px;
+        height: 32px;
+        padding: 0;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
