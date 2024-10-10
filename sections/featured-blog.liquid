@@ -8,12 +8,19 @@
     padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
     padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
   }
-
+  .section-{{ section.id }}-padding-x {
+    padding-left: {{ section.settings.heading_padding_left | times: 0.75 | round: 0 }}px;
+    padding-right: {{ section.settings.heading_padding_right | times: 0.75 | round: 0 }}px;
+  }
   @media screen and (min-width: 750px) {
     .section-{{ section.id }}-padding {
       padding-top: {{ section.settings.padding_top }}px;
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
+    .section-{{ section.id }}-padding-x {
+    padding-left: {{ section.settings.heading_padding_left }}px;
+    padding-right: {{ section.settings.heading_padding_right }}px;
+  }
   }
 {%- endstyle -%}
 
@@ -25,7 +32,7 @@
   endif
 -%}
 <div class="blog color-{{ section.settings.color_scheme }} gradient{% if section.settings.heading == blank %} no-heading{% endif %}">
-  <div class="page-width-desktop isolate{% if posts_displayed < 3 %} page-width-tablet{% endif %} section-{{ section.id }}-padding">
+  <div class="page-width-desktop isolate{% if posts_displayed < 3 %} page-width-tablet{% endif %} section-{{ section.id }}-padding section-{{ section.id }}-padding-x">
     {%- unless section.settings.heading == blank -%}
       <div class="title-wrapper-with-link{% if posts_displayed > 2 %} title-wrapper--self-padded-tablet-down{% else %} title-wrapper--self-padded-mobile{% endif %} title-wrapper--no-top-margin">
         <h2
