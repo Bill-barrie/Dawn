@@ -3605,3 +3605,7 @@ details-disclosure > details {
    font-weight: normal;
    font-size: normal;
 }
+
+.collection__title.title-wrapper .title.inline-richtext {
+  font-family: "BaseNeue", sans-serif;
+}
