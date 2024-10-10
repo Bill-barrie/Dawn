@@ -3597,7 +3597,6 @@ details-disclosure > details {
 }
 /* Custom Font*/
 @font-face {
-font-family: "customFont1";
-src: url("https://cdn.shopify.com/s/files/1/0721/5431/7049/files/BaseNeue-Condensed.ttf?v=1728570432") format("customFont1"),
-url("https://cdn.shopify.com/s/files/1/0721/5431/7049/files/BaseNeue-Condensed.ttf?v=1728570432") format("customFont1");
+font-family: "BaseNeue-Condensed";
+ src: url('{{ 'BaseNeue-Condensed.ttf' | asset_url }}');
 }
