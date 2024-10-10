@@ -40,7 +40,9 @@
     line-height: 23.81px;
     text-align: center;
     color: #8E5D2E9E;
-
+    max-width: 293px;
+    margin-left: auto;
+    margin-right: auto;
 }
 @media screen and (max-width: 750px) {
     
