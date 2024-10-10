@@ -142,6 +142,48 @@
     position: relative;
   }
 }
+@media screen and (max-width: 732px) {
+  .banner__heading {
+    font-size: 30px;
+    font-weight: 650;
+    line-height: 46.76px;
+    transform: translate(50,50);
+  }
+  .banner__buttons>a {
+    width: 124px;
+  }
+  .banner__buttons{
+    width: 124px;
+    margin-top: 6%;
+  }
+  .custom__banner__heading{
+    left: 100px;
+    margin-top: 30px;
+  }
+  .banner__logo__image {
+    width: auto;
+    height: auto;
+  }
+  .banner__logo__image >img{
+    width: 120px;
+    height: 95px;
+  }
+  .banner__box .banner__heading + * {
+    margin-top: 70px;
+  }
+  .banner__buttons>a {
+    width: 178px;
+    font-family: Avenir LT Std;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.8px;
+  }
+  .custom__contents {
+    width: 300px;
+    height: 429.61px;
+    position: relative;
+  }
+}
 .banner__box {
   text-align: center;
 }
