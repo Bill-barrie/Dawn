@@ -75,6 +75,9 @@
     .block-size{
         gap: 0px;
     }
+    .custom-content{
+        min-height: 100px;
+    }
     
 }
 @media screen and (min-width: 990px) {
