@@ -122,7 +122,9 @@
         {%- case block.type -%}
           {% when "logo" %}
             <div class="banner__logo__image" >
+              {% if block.settings.logo != blank %}
               {{ block.settings.logo | image_url: width: 80 | image_tag }}
+              {% endif %}
             </div>
           {%- when 'heading' -%}
             <h2
