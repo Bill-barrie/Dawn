@@ -8,6 +8,7 @@
 .block-size{
     gap: 24px;
     display: grid;
+    text-align: center;
     align-items: start; /* Aligns items at the start */
     grid-template-columns: auto;
 }
