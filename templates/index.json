@@ -28,11 +28,18 @@
             "button_link_2": "",
             "button_style_secondary_2": false
           }
+        },
+        "logo_hrYReU": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/snowboard_wax.png"
+          }
         }
       },
       "block_order": [
         "heading",
-        "button"
+        "button",
+        "logo_hrYReU"
       ],
       "settings": {
         "image_overlay_opacity": 40,
