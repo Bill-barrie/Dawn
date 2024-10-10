@@ -3595,3 +3595,8 @@ details-disclosure > details {
     transform: translateX(100%) scaleX(0);
   }
 }
+/* Custom Font*/
+@font-face {
+font-family: "customFont1";
+ src: url('{{ 'BaseNeue-Condensed.ttf' | asset_url }}');
+}
