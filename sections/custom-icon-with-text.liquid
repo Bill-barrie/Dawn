@@ -13,8 +13,8 @@
 
         <div class="block-size block-size-{{ forloop.index }}">
           <div class="custom-image">
-            {% unless block.settings.image_picker == blank %}
-              {{ block.settings.image_picker | image_url: width: 80
+            {% unless block.settings.icon == blank %}
+              {{ block.settings.icon | image_url: width: 80
                 | image_tag }}
             {% endunless %}
           </div>
@@ -47,7 +47,7 @@
       "settings": [
         {
           "type": "image_picker",
-          "id": "image_picker",
+          "id": "icon",
           "label": "Icon"
         },
         {
