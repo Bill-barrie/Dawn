@@ -1,6 +1,6 @@
 .custom-container1{
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: repeat(4, 1fr); /* Adjusted shorthand for 4 equal columns */
     padding: 45px 156px;
     gap: 24px;
 
@@ -8,6 +8,7 @@
 .block-size{
     gap: 24px;
     display: grid;
+    align-items: start; /* Aligns items at the start */
     grid-template-columns: auto;
 }
 .custom-image{
@@ -19,10 +20,6 @@
 }
 .custom-content{
     Gap :6px;
-    flex-grow: 1; /* Ensures content stretches equally */
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start; /* Aligns title at the top */
 }
 .custom-title{
     font-family: Avenir LT Std;
