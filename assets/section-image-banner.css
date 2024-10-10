@@ -100,8 +100,43 @@
   
 }
 }
-@media screen and (max-width: 953px) {
- 
+@media screen and (max-width: 943px) {
+  .banner__heading {
+    font-size: 30px;
+    font-weight: 650;
+    line-height: 46.76px;
+    transform: translate(50,50);
+  }
+  .banner__buttons>a {
+    width: 124px;
+  }
+  .banner__buttons{
+    width: 124px;
+    margin-top: 80px;
+  }
+  .custom__banner__heading{
+    left: 100px;
+    margin-top: 40px;
+  }
+  .banner__logo__image {
+    width: auto;
+    height: auto;
+  }
+  .banner__logo__image >img{
+    width: 150px;
+    height: 130px;
+  }
+  .banner__box .banner__heading + * {
+    margin-top: 100px;
+  }
+  .banner__buttons>a {
+    width: 178px;
+    font-family: Avenir LT Std;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.8px;
+  
+}
 }
 .banner__box {
   text-align: center;
