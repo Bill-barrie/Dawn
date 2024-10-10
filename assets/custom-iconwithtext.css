@@ -60,6 +60,7 @@
     }
     .custom-image>img{
         width: 50px;
+        height: auto;
         padding: 0px;
         margin-right: auto;
         margin-left: auto;
@@ -110,7 +111,7 @@
     line-height: 9.61px;
     text-align: center;
     }
-    
+}
 @media screen and (max-width: 550px) {
     .custom-image>img {
         width: 32px;
