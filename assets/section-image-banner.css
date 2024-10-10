@@ -91,10 +91,18 @@
   .banner__box .banner__heading + * {
     margin-top: 100px;
   }
-  
+ 
+}
+@media screen and (max-width: 953px) {
+  .banner__buttons>a {
+    width: 178px;
+    font-family: Avenir LT Std;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18.8px;
   
 }
-
+}
 .banner__box {
   text-align: center;
 }
