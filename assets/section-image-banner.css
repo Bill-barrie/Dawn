@@ -456,7 +456,7 @@
   line-height: 76.76px;
   text-align: left;
   color: #FFFFFF;
-  -webkit-text-stroke: 1px 8E5D2E; /* width and color */
+  -webkit-text-stroke: 1px #8E5D2E; /* width and color */
 }
 
 .banner__box .banner__heading + * {
