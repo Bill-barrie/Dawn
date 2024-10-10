@@ -5,7 +5,9 @@
   z-index: auto;
   isolation: isolate;
 }
-
+.custom__banner__heading{
+  
+}
 .banner__box {
   text-align: center;
 }
