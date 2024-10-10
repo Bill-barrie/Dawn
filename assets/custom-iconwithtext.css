@@ -1,7 +1,7 @@
 .custom-container1{
     display: grid;
     grid-template-columns: repeat(4, 1fr); /* Adjusted shorthand for 4 equal columns */
-    padding: 45px 156px;
+    padding: 45px 60px;
     gap: 24px;
 
 }
