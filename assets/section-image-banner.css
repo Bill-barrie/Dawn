@@ -112,22 +112,22 @@
   }
   .banner__buttons{
     width: 124px;
-    margin-top: 80px;
+    margin-top: 6%;
   }
   .custom__banner__heading{
     left: 100px;
-    margin-top: 40px;
+    margin-top: 30px;
   }
   .banner__logo__image {
     width: auto;
     height: auto;
   }
   .banner__logo__image >img{
-    width: 150px;
-    height: 130px;
+    width: 120px;
+    height: 95px;
   }
   .banner__box .banner__heading + * {
-    margin-top: 100px;
+    margin-top: 70px;
   }
   .banner__buttons>a {
     width: 178px;
