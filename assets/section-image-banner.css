@@ -480,7 +480,7 @@
   border: 1px 0px 0px 0px;
 
 }
-.banner__buttons > button{
+.banner__buttons > a{
   width: 178px;
 }
 
