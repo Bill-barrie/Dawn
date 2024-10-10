@@ -13,8 +13,10 @@
 
         <div class="block-size block-size-{{ forloop.index }}">
           <div class="custom-image">
-            {{ block.settings.imageText | image_url: width: 80
-              | image_tag }}
+            {% unless block.settings.imageText != blank%}
+              {{ block.settings.imageText | image_url: width: 80
+                | image_tag }}
+            {% endunless %}
           </div>
           <div class="custom-content">
             <div class="custom-title">
