@@ -147,7 +147,7 @@
     width: 300px;
     text-wrap: balance;
     left: 25px;
-        margin-top: 17px;
+    margin-top: 17px;
   }
   .banner__heading {
     font-size: 30px;
@@ -170,6 +170,53 @@
   .banner__logo__image >img{
     width: 120px;
     height: 95px;
+  }
+  .banner__box .banner__heading + * {
+    margin-top: 120px;
+  }
+  .banner__buttons>a {
+    width: 178px;
+    font-family: Avenir LT Std;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.8px;
+  }
+  .custom__contents {
+    width: 300px;
+    height: 429.61px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 500px) {
+  .custom__banner__heading {
+    width: 300px;
+    text-wrap: balance;
+    left: 25px;
+    margin-top: 17px;
+  }
+  .banner__heading {
+    font-size: 30px;
+    font-weight: 650;
+    line-height: 46.76px;
+    transform: translate(50,50);
+  }
+  .banner__buttons>a {
+    width: 124px;
+  }
+  .banner__buttons{
+    width: 124px;
+    margin-top: 6%;
+  }
+ 
+  .banner__logo__image {
+    width: auto;
+    height: auto;
+  }
+  .banner__logo__image >img{
+    width: 28px;
+    height: 25px;
   }
   .banner__box .banner__heading + * {
     margin-top: 120px;
