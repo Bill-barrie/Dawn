@@ -8,7 +8,7 @@
 .custom__banner__heading{
   position: absolute;
   text-wrap: nowrap;
-  left: 100px;
+  left: -100px;
   margin-top: 60px;
 }
 .custom__contents{
