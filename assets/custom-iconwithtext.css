@@ -6,11 +6,9 @@
 
 }
 .block-size{
-   display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  width: 22%;
+    gap: 24px;
+    display: grid;
+    grid-template-columns: auto;
 }
 .custom-image{
     width: 80px;
@@ -21,6 +19,10 @@
 }
 .custom-content{
     Gap :6px;
+    flex-grow: 1; /* Ensures content stretches equally */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Aligns title at the top */
 }
 .custom-title{
     font-family: Avenir LT Std;
