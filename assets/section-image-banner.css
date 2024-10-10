@@ -194,7 +194,7 @@
     width: 220px;
     text-wrap: balance;
     left: 68px;
-    margin-top: 17px;
+    margin-top: 18px;
     
   }
   .banner__heading {
@@ -223,11 +223,12 @@
     margin-top: 120px;
   }
   .banner__buttons>a {
-    width: 178px;
     font-family: Avenir LT Std;
-    font-size: 16px;
+    font-size: 4.87px;
     font-weight: 400;
-    line-height: 18.8px;
+    line-height: 5.85px;
+    text-align: left;
+    
   }
   .custom__contents {
     width: 300px;
