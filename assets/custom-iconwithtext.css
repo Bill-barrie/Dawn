@@ -6,11 +6,12 @@
 
 }
 .block-size{
-    gap: 24px;
-    display: grid;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Ensure content is distributed evenly */
     text-align: center;
-    align-items: start; /* Aligns items at the start */
-    grid-template-columns: auto;
+    height: 100%; /* Ensure each block is the same height */
 }
 .custom-image{
     width: 80px;
