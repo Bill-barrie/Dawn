@@ -9,6 +9,7 @@
   position: absolute;
   text-wrap: nowrap;
   left: 100px;
+  margin-top: 0px;
 }
 .custom__contents{
   width: 1022px;
