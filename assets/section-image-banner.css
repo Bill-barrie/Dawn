@@ -191,7 +191,7 @@
 }
 @media screen and (max-width: 500px) {
   .custom__banner__heading {
-    width: 300px;
+    width: 220px;
     text-wrap: balance;
     left: 25px;
     margin-top: 17px;
