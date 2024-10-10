@@ -121,7 +121,7 @@
         {%- case block.type -%}
           {%- when 'heading' -%}
             <h2
-              class="banner__heading inline-richtext {{ block.settings.heading_size }}"
+              class="banner__heading inline-richtext {{ block.settings.heading_size }} custom__banner__heading"
               {{ block.shopify_attributes }}
             >
               {{ block.settings.heading }}
@@ -362,6 +362,18 @@
     }
   ],
   "blocks": [
+    {
+      "type":"logo",
+      "name":"logo",
+      "limit":1,
+      "settings":[
+        {
+          "type":"image_picker",
+          "id":"logo",
+          "label":"logo",
+        },
+      ]
+    },
     {
       "type": "heading",
       "name": "t:sections.image-banner.blocks.heading.name",
