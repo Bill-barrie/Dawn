@@ -90,7 +90,7 @@
         "custom_block_aDpwqV": {
           "type": "customBlock",
           "settings": {
-            "image_picker": "shopify://shop_images/3.svg",
+            "image_picker": "shopify://shop_images/3.png",
             "title": "Free returns",
             "description": "Not 100% satisfied? return within 45 days of purchase with absolutely zero hassle"
           }
