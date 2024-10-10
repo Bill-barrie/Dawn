@@ -6,12 +6,13 @@
   isolation: isolate;
 }
 .custom__banner__heading{
-
+  position: absolute;
+  left: 100px;
 }
 .custom__contents{
   width: 1022px;
   height: 429.61px;
-  
+  position:relative;
 }
 .banner__logo__image{
   width: 235.77px;
