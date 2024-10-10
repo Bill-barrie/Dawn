@@ -143,6 +143,10 @@
   }
 }
 @media screen and (max-width: 732px) {
+  .custom__banner__heading {
+    width: 300px;
+    text-wrap: balance;
+  }
   .banner__heading {
     font-size: 30px;
     font-weight: 650;
