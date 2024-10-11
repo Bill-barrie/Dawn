@@ -2,6 +2,12 @@
     margin-left: auto;
     margin-right: auto;
     color: #8E5D2E;
+    font-family: Avenir LT Std;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 57.57px;
+    text-align: center;
+
 }
 .custom__page__width{
     padding: 100px 162px !important;
