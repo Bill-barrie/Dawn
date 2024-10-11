@@ -19,6 +19,9 @@
 .custom{
 
 }
+.custom.card__content{
+    background-color: #F7F7F7;
+}
 .custom.article-card__excerpt{
     margin-top: 0;
     margin-bottom: 0;
