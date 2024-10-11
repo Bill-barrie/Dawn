@@ -12,6 +12,10 @@
 .custom-blog-contaner{
     padding: 100px 162px !important;
 }
+.custom.blog__post{
+    width: calc(33.33% - var(--grid-desktop-horizontal-spacing));
+    max-width: calc(32.33% - var(--grid-desktop-horizontal-spacing));
+}
 .blog-post {
     display: block !important; /* Ensure each post is displayed as a block */
     margin-bottom: 20px !important; /* Add spacing between posts */
