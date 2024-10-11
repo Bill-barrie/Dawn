@@ -23,7 +23,7 @@
 }
 @media screen and (max-width: 990px) {
     .custom.blog__post{
-        max-width: none;
+        max-width: none!important;
     }
     .custom-ul{
         display: flex;
