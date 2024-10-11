@@ -56,13 +56,13 @@
 
 @media screen and (max-width: 1300px) {
     .custom-blog-contaner{
-        padding: 30px 100px !important;
+        padding: 100px 100px !important;
     }
 }
 
 @media screen and (max-width: 990px) {
     .custom-blog-contaner{
-        padding: 30px 100px !important;
+        padding: 100px 100px !important;
     }
 }
 
