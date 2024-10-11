@@ -12,7 +12,9 @@
 .custom-blog-contaner{
     padding: 100px 162px !important;
 }
+.custom-ul{
 
+}
 @media screen and (min-width: 990px) {
     .custom.blog__post{
         width: calc(33.33% - var(--grid-desktop-horizontal-spacing));
@@ -22,6 +24,10 @@
 @media screen and (max-width: 990px) {
     .custom.blog__post{
         max-width: none;
+    }
+    .custom-ul{
+        display: flex;
+        flex-direction: column;
     }
 }
 .blog-post {
