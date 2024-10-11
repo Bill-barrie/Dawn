@@ -6,27 +6,23 @@
 {% assign columns_desktop=3 %}
 <script>
   document.addEventListener("DOMContentLoaded", function() {
-    function updateScreenWidth() {
-      const screenWidth = window.innerWidth;
-      console.log("Current screen width:", screenWidth); // Log the width (you can remove this later)
-      
-      // Here you can add logic based on screen width
-      if (screenWidth <= 1400) {
-         columns_desktop=1 
-        // Code for mobile layout section.settings.columns_desktop
-        console.log("Mobile layout");
-      } else {
-         columns_desktop=3
-        // Code for desktop layout
-        console.log("Desktop layout");
+    function updateLayout() {
+      const screenWidth = window.innerWidth; grid--{{ columns_desktop }}-col-desktop
+      const section = document.querySelector('.blog'); // Change to your section class
+      section.classList.remove('grid--1-col-desktop', 'grid--2-col-desktop'; // Remove existing classes
+
+      if (screenWidth <= 900) {
+        section.classList.add('grid--1-col-desktop'); // For mobile, apply 1 column
+      }  else {
+        section.classList.add('grid--3-col-desktop'); // For desktop, apply 3 columns
       }
     }
 
-    // Call the function on initial load
-    updateScreenWidth();
+    // Initial check
+    updateLayout();
 
-    // Optional: Add an event listener for window resize
-    window.addEventListener('resize', updateScreenWidth);
+    // Update on resize
+    window.addEventListener('resize', updateLayout);
   });
 </script>
 {%- style -%}
