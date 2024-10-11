@@ -64,6 +64,9 @@
     .custom-blog-contaner{
         padding: 100px 100px !important;
     }
+    .custom.grid--peek.slider .grid__item:first-of-type {
+        padding: 0;
+    }
 }
 
 @media screen and (max-width: 600px) {
