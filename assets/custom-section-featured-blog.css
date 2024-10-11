@@ -76,10 +76,16 @@
        width: 507px!important;
     }
 }
-@media screen and (min-width: 1200px) {
- 
+@media screen and (min-width: 1500px) {
+    
     .custom__page__width{
         padding: 100px 162px !important;
+    }
+}
+@media screen and (min-width: 990px) {
+    
+    .custom__page__width{
+        padding: 70px 100px !important;
     }
 }
 /* Custom CSS for list layout in blog section */
