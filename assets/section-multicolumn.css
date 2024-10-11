@@ -68,6 +68,9 @@
 .custom.multicolumn-card.content-container{
   height: 576px!important; 
 }
+.custom.multicolumn-card__info{
+  margin-top: 42px;
+}
 .multicolumn-card__image-wrapper--half-width {
   width: 50%;
 }
