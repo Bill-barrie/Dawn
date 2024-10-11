@@ -4,29 +4,6 @@
 {{ 'section-featured-blog.css' | asset_url | stylesheet_tag }}
 {{ 'custom-section-featured-blog.css' | asset_url | stylesheet_tag }}
 
-<script>
-  document.addEventListener("DOMContentLoaded", function() {
-    function updateScreenWidth() {
-      const screenWidth = window.innerWidth;
-      console.log("Current screen width:", screenWidth); // Log the width (you can remove this later)
-      
-      // Here you can add logic based on screen width
-      if (screenWidth <= 900) {
-        // Code for mobile layout
-        console.log("Mobile layout");
-      } else {
-        // Code for desktop layout
-        console.log("Desktop layout");
-      }
-    }
-
-    // Call the function on initial load
-    updateScreenWidth();
-
-    // Optional: Add an event listener for window resize
-    window.addEventListener('resize', updateScreenWidth);
-  });
-</script>
 {%- style -%}
   .image_banner {
     padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
@@ -55,13 +32,13 @@
     assign posts_displayed = section.settings.post_limit
   endif
 -%}
-<div class="blog color-{{ section.settings.color_scheme }} gradient{% if section.settings.heading == blank %} no-heading{% endif %}">
+<div class="blog color-{{ section.settings.color_scheme }} custom__heading gradient{% if section.settings.heading == blank %} no-heading{% endif %}">
   <div class=" custom__page__width isolate{% if posts_displayed < 3 %} page-width-tablet{% endif %} section-{{ section.id }}-padding section-{{ section.id }}-padding-x">
     {%- unless section.settings.heading == blank -%}
       <div class="title-wrapper-with-link{% if posts_displayed > 2 %} title-wrapper--self-padded-tablet-down{% else %} title-wrapper--self-padded-mobile{% endif %} title-wrapper--no-top-margin">
         <h2
-          id="SectionHeading-{{ section.id }}" 
-          class="blog__title inline-richtext custom__heading  {{ section.settings.heading_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+          id="SectionHeading-{{ section.id }}"
+          class="blog__title inline-richtext {{ section.settings.heading_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
           {% if settings.animations_reveal_on_scroll %}
             data-cascade
           {% endif %}
@@ -91,9 +68,9 @@
       >
         {%- if section.settings.blog != blank and section.settings.blog.articles_count > 0 -%}
           {%- for article in section.settings.blog.articles limit: section.settings.post_limit -%}
-            <li 
+            <li
               id="Slide-{{ section.id }}-{{ forloop.index }}"
-              class="blog__post grid__item custom__blog_post article slider__slide slider__slide--full-width{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+              class="blog__post grid__item article slider__slide slider__slide--full-width{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
               {% if settings.animations_reveal_on_scroll %}
                 data-cascade
                 style="--animation-order: {{ forloop.index }};"
@@ -122,7 +99,7 @@
                 style="--animation-order: {{ forloop.index }};"
               {% endif %}
             >
-              <div class="article-card-wrapper custom__blog_post card-wrapper{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+              <div class="article-card-wrapper card-wrapper{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
                 <div
                   class="
                     card article-card card--{{ settings.blog_card_style }}
