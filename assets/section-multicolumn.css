@@ -101,6 +101,12 @@ color: #8E5D2EE8;
   color: #8E5D2EE8;
   text-decoration: none;
 }
+.custom.svg-wrapper{
+  width: 23px;
+  height: 2px;
+  border-radius: 12px 0px 0px 0px;
+  background-color: #EF6A09;
+}
 @media screen and (min-width: 990px) and (max-width: 1300px) {
   .custom.multicolumn-card__info > .rte{
     font-family: Avenir LT Std;
