@@ -6,6 +6,10 @@
 .custom__page__width{
     padding: 100px 162px !important;
 }
+.blog-post {
+    display: block !important; /* Ensure each post is displayed as a block */
+    margin-bottom: 20px !important; /* Add spacing between posts */
+}
 @media screen and (min-width: 700px) {
  
     .custom__page__width{
