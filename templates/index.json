@@ -44,9 +44,9 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/sample-normal-wax.png",
-            "title": "Column",
+            "title": "",
             "text": "<p>I've been shopping on Debutify Baby for my little Elia for the past 6 months and I'm always amazed by the quality of their products and how consistently good they are with their service!</p>",
-            "link_label": "",
+            "link_label": "Anderson tyla",
             "link": ""
           }
         },
@@ -54,9 +54,9 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/gift_card.png",
-            "title": "Column",
+            "title": "",
             "text": "<p>I've been shopping on Debutify Baby for my little Elia for the past 6 months and I'm always amazed by the quality of their products and how consistently good they are with their service!</p>",
-            "link_label": "",
+            "link_label": "Anderson tyla",
             "link": ""
           }
         },
@@ -64,9 +64,9 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/gift_card.png",
-            "title": "Column",
+            "title": "",
             "text": "<p>I've been shopping on Debutify Baby for my little Elia for the past 6 months and I'm always amazed by the quality of their products and how consistently good they are with their service!</p>",
-            "link_label": "",
+            "link_label": "Anderson tyla",
             "link": ""
           }
         }
