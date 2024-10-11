@@ -104,7 +104,7 @@ color: #8E5D2EE8;
 .custom.svg-wrapper{
   width: 23px;
   height: 2px;
-  transform: translateY(-100%);
+  transform: translateY(-230%);
   border-radius: 12px 0px 0px 0px;
   background-color: #EF6A09;
 }
