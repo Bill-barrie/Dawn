@@ -28,6 +28,14 @@
     text-align: left;
     color: #8E5D2ED4;
 }
+.custom.circle-divider{
+    font-family: Avenir LT Std;
+    font-size: 13.1px;
+    font-weight: 350;
+    line-height: 15.72px;
+    text-align: left;
+    color: #8E5D2EB2;
+}
 .custom-blog_card-title{
     font-family: Calibri;
     font-size: 33.68px;
