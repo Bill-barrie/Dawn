@@ -9,7 +9,9 @@
     text-align: center;
 
 }
-
+.custom-blog-contaner{
+    padding: 100px 162px !important;
+}
 .custom-ul{
 
 }
@@ -76,14 +78,14 @@
 }
 @media screen and (min-width: 1500px) {
     
-    .custom__page__width{
+    .custom-blog-contaner{
         padding: 100px 162px !important;
     }
 }
-@media screen and (min-width: 990px) {
+@media screen and (min-width: 1200px) {
     
-    .custom__page__width{
-        padding: 70px 100px !important;
+    .custom-blog-contaner{
+        padding: 80px 100px !important;
     }
 }
 /* Custom CSS for list layout in blog section */
