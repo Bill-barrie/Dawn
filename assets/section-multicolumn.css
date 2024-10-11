@@ -77,6 +77,10 @@
   margin-left: 57px;
   margin-right: 57px;
 }
+.custom.animate-arrow{
+  margin-left: auto;
+  margin-right: auto;
+}
 .multicolumn-card__image-wrapper--half-width {
   width: 50%;
 }
