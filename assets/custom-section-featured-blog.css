@@ -60,7 +60,7 @@
     }
 }
 
-@media screen and (max-width: 990px) {
+@media screen and (max-width: 989px) {
     .custom-blog-contaner{
         padding: 100px 100px !important;
     }
