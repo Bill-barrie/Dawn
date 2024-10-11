@@ -57,6 +57,9 @@
 .multicolumn-card__image-wrapper--third-width {
   width: 33%;
 }
+.custom.multicolumn-card__image-wrapper--third-width {
+  width: 28%;
+}
 
 .multicolumn-card__image-wrapper--half-width {
   width: 50%;
