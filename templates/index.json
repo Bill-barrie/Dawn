@@ -42,9 +42,9 @@
       "settings": {
         "heading": "Blog posts",
         "heading_padding_left": 100,
-        "heading_padding_right": 100,
+        "heading_padding_right": 110,
         "heading_size": "h1",
-        "blog": "love",
+        "blog": "mun-and-baby",
         "post_limit": 4,
         "columns_desktop": 4,
         "color_scheme": "scheme-1",
@@ -78,7 +78,7 @@
   },
   "order": [
     "featured_collection",
-    "featured_blog_jExY78",
-    "featured_blog_xmJxdi"
+    "featured_blog_xmJxdi",
+    "featured_blog_jExY78"
   ]
 }
