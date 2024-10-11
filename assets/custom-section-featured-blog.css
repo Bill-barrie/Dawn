@@ -85,7 +85,11 @@
         padding: 30px 100px !important;
     }
 }
-
+@media screen and (max-width: 130px) {
+    .custom-blog-contaner{
+        padding: 30px 100px !important;
+    }
+}
 
 @media screen and (min-width: 990px) {
     .custom.blog__post{
