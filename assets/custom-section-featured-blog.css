@@ -92,7 +92,7 @@
 }
 @media screen and (max-width: 2000px) {
     .custom-blog-contaner{
-        padding: 30px 162px !important;
+        padding: 100px 162px !important;
     }
 }
 @media screen and (min-width: 990px) {
