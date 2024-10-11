@@ -15,6 +15,14 @@
 .custom-ul{
 
 }
+.custom.card__heading.h2{
+    font-family: Calibri;
+    font-size: 33.68px;
+    font-weight: 300;
+    line-height: 41.09px;
+    text-align: left;
+
+}
 @media screen and (min-width: 990px) {
     .custom.blog__post{
         width: calc(33.33% - var(--grid-desktop-horizontal-spacing));
