@@ -100,6 +100,7 @@ color: #8E5D2EE8;
   line-height: 24px;
   text-align: left;
   color: #8E5D2EE8;
+  text-decoration: none;
 }
 .multicolumn-card__image-wrapper--half-width {
   width: 50%;
