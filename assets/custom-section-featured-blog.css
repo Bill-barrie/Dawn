@@ -18,6 +18,10 @@
 .custom{
 
 }
+.custom.article-card__excerpt{
+    margin-top: 0;
+    margin-bottom: 0;
+}
 .custom-blog_card-title{
     font-family: Calibri;
     font-size: 33.68px;
