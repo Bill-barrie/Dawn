@@ -65,7 +65,10 @@
   margin-right: auto;
   padding-top: 40px!important;
 }
-
+.custom.multicolumn-card.content-container{
+  width: 507px;
+  height: 576px; 
+}
 .multicolumn-card__image-wrapper--half-width {
   width: 50%;
 }
