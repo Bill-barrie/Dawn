@@ -67,7 +67,7 @@
 }
 .custom.multicolumn-card.content-container{
   width: 507px;
-  height: 576px; 
+  height: 576px!important; 
 }
 .multicolumn-card__image-wrapper--half-width {
   width: 50%;
