@@ -11,6 +11,14 @@
   text-align: left;
   color: #8E5D2E;
 }
+.description{
+  font-family: Avenir LT Std;
+  font-size: 32px;
+  font-weight: 350;
+  line-height: 38.4px;
+  text-align: center;
+  color: #8E5D2EE8;
+}
 .multicolumn.no-heading .title {
   display: none;
 }
