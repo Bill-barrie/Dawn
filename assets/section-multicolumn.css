@@ -70,7 +70,7 @@
 }
 .custom.multicolumn-card__info{                                             
   margin-top: 42px;
-  border-top-style: 1px solid #8E5D2E;
+  border-top: 1px solid #8E5D2E;
 }
 .multicolumn-card__image-wrapper--half-width {
   width: 50%;
