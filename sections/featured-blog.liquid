@@ -3,26 +3,28 @@
 {{ 'component-article-card.css' | asset_url | stylesheet_tag }}
 {{ 'section-featured-blog.css' | asset_url | stylesheet_tag }}
 {{ 'custom-section-featured-blog.css' | asset_url | stylesheet_tag }}
-{% assign columns_desktop=3 %}
+
 <script>
   document.addEventListener("DOMContentLoaded", function() {
-    function updateLayout() {
-      const screenWidth = window.innerWidth; grid--{{ columns_desktop }}-col-desktop
-      const section = document.querySelector('.blog'); // Change to your section class
-      section.classList.remove('grid--1-col-desktop', 'grid--3-col-desktop'; // Remove existing classes
-
+    function updateScreenWidth() {
+      const screenWidth = window.innerWidth;
+      console.log("Current screen width:", screenWidth); // Log the width (you can remove this later)
+      
+      // Here you can add logic based on screen width
       if (screenWidth <= 900) {
-        section.classList.add('grid--1-col-desktop'); // For mobile, apply 1 column
-      }  else {
-        section.classList.add('grid--3-col-desktop'); // For desktop, apply 3 columns
+        // Code for mobile layout
+        console.log("Mobile layout");
+      } else {
+        // Code for desktop layout
+        console.log("Desktop layout");
       }
     }
 
-    // Initial check
-    updateLayout();
+    // Call the function on initial load
+    updateScreenWidth();
 
-    // Update on resize
-    window.addEventListener('resize', updateLayout);
+    // Optional: Add an event listener for window resize
+    window.addEventListener('resize', updateScreenWidth);
   });
 </script>
 {%- style -%}
@@ -84,7 +86,7 @@
     <slider-component class="slider-mobile-gutter{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
       <ul
         id="Slider-{{ section.id }}"
-        class="blog__posts articles-wrapper contains-card contains-card--article{% if settings.blog_card_style == 'standard' %} contains-card--standard{% endif %} grid grid--peek grid--2-col-tablet grid--{{ columns_desktop }}-col-desktop slider {% if posts_displayed > 2 %}slider--tablet{% else %}slider--mobile{% endif %}"
+        class="blog__posts articles-wrapper contains-card contains-card--article{% if settings.blog_card_style == 'standard' %} contains-card--standard{% endif %} grid grid--peek grid--2-col-tablet grid--{{ section.settings.columns_desktop }}-col-desktop slider {% if posts_displayed > 2 %}slider--tablet{% else %}slider--mobile{% endif %}"
         role="list"
       >
         {%- if section.settings.blog != blank and section.settings.blog.articles_count > 0 -%}
