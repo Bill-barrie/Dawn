@@ -79,7 +79,6 @@
   padding-right: 0;
   margin-left: 57px;
   margin-right: 57px;
-  
 }
 .custom.multicolumn-card__info > .rte{
   font-family: Avenir LT Std;
@@ -102,6 +101,18 @@ color: #8E5D2EE8;
   color: #8E5D2EE8;
   text-decoration: none;
 }
+@media screen and (min-width: 990px) and (max-width: 1300px) {
+  .custom.multicolumn-card__info > .rte{
+    font-family: Avenir LT Std;
+    font-size: 18px;
+    font-weight: 350;
+    line-height: 20.8px;
+    text-align: center;
+    color: #8E5D2EE8;
+  }
+}
+
+
 .multicolumn-card__image-wrapper--half-width {
   width: 50%;
 }
