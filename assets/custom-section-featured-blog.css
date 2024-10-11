@@ -73,6 +73,9 @@
     .custom-blog-contaner{
         padding: 10px 32px !important;
     }
+    .custom.article-card__info{
+        padding-top: 10px;
+    }
     .custom-blog_card-title{
         font-family: Avenir LT Std;
         font-size: 21.7px;
