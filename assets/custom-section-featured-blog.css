@@ -28,3 +28,46 @@
         padding: 100px 162px !important;
     }
 }
+/* Custom CSS for list layout in blog section */
+/* Custom CSS for Blog Post List Layout */
+.blog-posts-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .blog-post-list-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    padding: 10px 0;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .blog-post-image {
+    width: 150px;
+    height: auto;
+    margin-right: 20px;
+  }
+  
+  .blog-post-image img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .blog-post-text {
+    flex: 1;
+  }
+  
+  .blog-post-text h3 {
+    margin-top: 0;
+  }
+  
+  .blog-post-date {
+    font-size: 0.9em;
+    color: #999;
+  }
+  
+  .blog-post-read-more {
+    color: #0073e6;
+    text-decoration: underline;
+  }
