@@ -19,7 +19,7 @@
 .custom{
 
 }
-.custom.card__content{
+.custom.card__content >.card__information{
     background-color: #F7F7F7;
 }
 .custom.article-card__excerpt{
