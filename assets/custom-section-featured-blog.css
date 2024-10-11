@@ -49,6 +49,9 @@
     color: #8E5D2E;
 }
 @media screen and (max-width: 600px) {
+    .custom-blog-contaner{
+        padding: 10px 32px !important;
+    }
     .custom-blog_card-title{
         font-family: Avenir LT Std;
         font-size: 21.7px;
