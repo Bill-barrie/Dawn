@@ -79,6 +79,9 @@
   padding-right: 0;
   margin-left: 57px;
   margin-right: 57px;
+  
+}
+.custom.multicolumn-card__info > .rte{
   font-family: Avenir LT Std;
 font-size: 24px;
 font-weight: 350;
