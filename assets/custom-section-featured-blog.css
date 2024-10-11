@@ -24,6 +24,7 @@
 @media screen and (max-width: 990px) {
     .custom.blog__post{
         max-width: none!important;
+        width: 100%;
     }
     .custom-ul{
         display: flex;
