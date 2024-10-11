@@ -75,7 +75,11 @@
         text-align: left;
     }
 }
-
+@media screen and (max-width: 990px) {
+    .custom-blog-contaner{
+        padding: 30px 72px !important;
+    }
+}
 
 
 @media screen and (min-width: 990px) {
