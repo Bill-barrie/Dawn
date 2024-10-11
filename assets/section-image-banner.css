@@ -61,15 +61,7 @@
   line-height: 28.8px;
   text-align: left;
 }
-.button {
-  display: inline-block; /* Ensures the button respects width/height */
-  width: 150px; /* Set your desired width */
-  height: 50px; /* Set your desired height */
-  line-height: 50px; /* Center text vertically */
-  text-align: center; /* Center text horizontally */
-  padding: 15px 30px; /* Adjust top/bottom and left/right padding */
-  font-size: 16px; /* Adjust font size */
-}
+
 @media screen and (max-width: 1300px) {
   .banner__heading {
     font-size: 40px;
