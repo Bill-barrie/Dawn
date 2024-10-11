@@ -6,6 +6,12 @@
 .custom__page__width{
     padding: 100px 162px !important;
 }
+@media screen and (min-width: 700px) {
+ 
+    .custom__page__width{
+        padding: 500px 70px !important;
+    }
+}
 @media screen and (min-width: 990px) {
  
     .custom__blog_post{
@@ -16,11 +22,5 @@
  
     .custom__page__width{
         padding: 100px 162px !important;
-    }
-}
-@media screen and (min-width: 700px) {
- 
-    .custom__page__width{
-        padding: 500px 70px !important;
     }
 }
