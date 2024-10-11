@@ -19,6 +19,11 @@
         max-width: calc(32.33% - var(--grid-desktop-horizontal-spacing));
     }
 }
+@media screen and (max-width: 990px) {
+    .custom.blog__post{
+        max-width: none;
+    }
+}
 .blog-post {
     display: block !important; /* Ensure each post is displayed as a block */
     margin-bottom: 20px !important; /* Add spacing between posts */
