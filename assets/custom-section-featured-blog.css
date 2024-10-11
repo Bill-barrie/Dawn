@@ -85,12 +85,16 @@
         padding: 30px 100px !important;
     }
 }
-@media screen and (max-width: 130px) {
+@media screen and (max-width: 1300px) {
     .custom-blog-contaner{
         padding: 30px 100px !important;
     }
 }
-
+@media screen and (max-width: 2000px) {
+    .custom-blog-contaner{
+        padding: 30px 162px !important;
+    }
+}
 @media screen and (min-width: 990px) {
     .custom.blog__post{
         width: calc(33.33% - var(--grid-desktop-horizontal-spacing));
@@ -123,18 +127,8 @@
        width: 507px!important;
     }
 }
-@media screen and (min-width: 1500px) {
-    
-    .custom-blog-contaner{
-        padding: 100px 162px !important;
-    }
-}
-@media screen and (min-width: 1200px) {
-    
-    .custom-blog-contaner{
-        padding: 80px 100px !important;
-    }
-}
+
+
 /* Custom CSS for list layout in blog section */
 /* Custom CSS for Blog Post List Layout */
 .blog-posts-list {
