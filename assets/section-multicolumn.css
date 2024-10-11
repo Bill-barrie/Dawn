@@ -70,6 +70,7 @@
 }
 .custom.multicolumn-card__info{                                             
   margin-top: 42px;
+  border-bottom: 1px dashed  #8E5D2E;
   border-top: 1px dashed  #8E5D2E;
   padding-left: 0;
   padding-right: 0;
