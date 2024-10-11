@@ -21,6 +21,11 @@
   margin-left: auto;
   margin-right: auto;
 }
+.custom.title-wrapper-with-link{
+  display: flex;
+  flex-direction: column;
+} 
+
 .multicolumn.no-heading .title {
   display: none;
 }
