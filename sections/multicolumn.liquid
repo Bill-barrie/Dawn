@@ -133,6 +133,7 @@
                 
               </div>
               {%- if block.settings.link_label != blank -%}
+                  <span class="custom svg-wrapper"></span>
                 <a
                   class="link custom animate-arrow "
                   {% if block.settings.link == blank %}
@@ -142,9 +143,6 @@
                   {% endif %}
                 >
                   {{- block.settings.link_label | escape -}}
-                  <span class="custom svg-wrapper"
-                    ></span
-                  >
                 </a>
               {%- endif -%}
             </div>
