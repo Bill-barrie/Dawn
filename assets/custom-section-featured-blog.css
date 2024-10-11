@@ -64,6 +64,13 @@
         line-height: 17.36px;
         text-align: left;
     }
+    .custom.circle-divider{
+        font-family: Avenir LT Std;
+        font-size: 8.44px;
+        font-weight: 350;
+        line-height: 10.13px;
+        text-align: left;
+    }
 }
 
 
