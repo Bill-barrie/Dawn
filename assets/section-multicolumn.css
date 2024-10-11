@@ -24,8 +24,7 @@
 .custom.title-wrapper-with-link{
   display: flex;
   flex-direction: column;
-} 
-
+} custom  multicolumn-card__image-wrapper
 .multicolumn.no-heading .title {
   display: none;
 }
