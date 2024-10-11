@@ -68,6 +68,9 @@
 .custom.multicolumn-card.content-container{
   height: 576px!important; 
 }
+.custom.multicolumn-card{
+  text-align: center;
+}
 .custom.multicolumn-card__info{                                             
   margin-top: 42px;
   border-bottom: 1px dashed  #8E5D2E;
