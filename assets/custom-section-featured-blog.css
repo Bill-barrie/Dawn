@@ -48,6 +48,26 @@
     text-align: left;
     color: #8E5D2E;
 }
+@media screen and (max-width: 600px) {
+    .custom-blog_card-title{
+        font-family: Avenir LT Std;
+        font-size: 21.7px;
+        font-weight: 350;
+        line-height: 26.02px;
+        text-align: left;
+
+    }
+    .custom.article-card__excerpt{
+        font-family: Avenir LT Std;
+        font-size: 14.47px;
+        font-weight: 350;
+        line-height: 17.36px;
+        text-align: left;
+    }
+}
+
+
+
 @media screen and (min-width: 990px) {
     .custom.blog__post{
         width: calc(33.33% - var(--grid-desktop-horizontal-spacing));
