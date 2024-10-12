@@ -11,6 +11,9 @@
 .card__media__img{
     height: auto!important;
 }
+.custom-collection.card__inner{
+    height: 300px;
+}
 @media screen and (min-width: 750px) {
     .custom-grid__item{
         width: calc(26% - var(--grid-desktop-horizontal-spacing)* 3 / 4) !important;
