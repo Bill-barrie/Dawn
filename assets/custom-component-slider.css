@@ -40,3 +40,9 @@
         row-gap: 24px!important;
     }
 }
+@media screen and (max-width: 749px) {
+    .section-collection-list .page-width {
+        padding-left: 26;
+        padding-right: 26;
+    }
+}
