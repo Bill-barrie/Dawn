@@ -37,115 +37,63 @@
         "padding_bottom": 36
       }
     },
-    "featured_blog_DLwQ9M": {
-      "type": "featured-blog",
-      "settings": {
-        "heading": "Blog posts",
-        "heading_padding_left": 60,
-        "heading_padding_right": 70,
-        "heading_size": "h1",
-        "blog": "love",
-        "post_limit": 3,
-        "columns_desktop": 3,
-        "color_scheme": "",
-        "show_image": true,
-        "show_date": true,
-        "show_author": false,
-        "show_view_all": true,
-        "padding_top": 32,
-        "padding_bottom": 36
-      }
-    },
-    "multicolumn_ENWNpd": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_4LYqmW": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_LhfMjC": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_Pafxaq": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_4LYqmW",
-        "column_LhfMjC",
-        "column_Pafxaq"
-      ],
-      "settings": {
-        "title": "Our customers love us",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "Button label",
-        "description": "We have earned the love and trust of parents from all around the world",
-        "button_link": "",
-        "color_scheme": "",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "collection_list_VibP7m": {
+    "collection_list_D6Vwiw": {
       "type": "collection-list",
       "blocks": {
-        "featured_collection_9jghEh": {
+        "featured_collection_qrXCnM": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "hydrogen"
           }
         },
-        "featured_collection_MN7BfF": {
+        "featured_collection_eMGzRG": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "automated-collection"
           }
         },
-        "featured_collection_iTMwW9": {
+        "featured_collection_wCmnVx": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "hydrogen"
+          }
+        },
+        "featured_collection_cKdkKn": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "automated-collection"
+          }
+        },
+        "featured_collection_4fm9qY": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "automated-collection"
+          }
+        },
+        "featured_collection_p4UKcp": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "automated-collection"
           }
         }
       },
       "block_order": [
-        "featured_collection_9jghEh",
-        "featured_collection_MN7BfF",
-        "featured_collection_iTMwW9"
+        "featured_collection_qrXCnM",
+        "featured_collection_eMGzRG",
+        "featured_collection_wCmnVx",
+        "featured_collection_cKdkKn",
+        "featured_collection_4fm9qY",
+        "featured_collection_p4UKcp"
       ],
       "settings": {
         "title": "Collections",
-        "heading_size": "h1",
-        "image_ratio": "square",
+        "heading_size": "h2",
+        "image_ratio": "adapt",
         "columns_desktop": 3,
         "color_scheme": "",
         "show_view_all": false,
         "columns_mobile": "1",
-        "swipe_on_mobile": false,
+        "swipe_on_mobile": true,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -153,8 +101,6 @@
   },
   "order": [
     "featured_collection",
-    "featured_blog_DLwQ9M",
-    "multicolumn_ENWNpd",
-    "collection_list_VibP7m"
+    "collection_list_D6Vwiw"
   ]
 }
