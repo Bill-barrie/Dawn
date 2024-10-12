@@ -20,7 +20,7 @@
     font-weight: 400;
     line-height: 43.2px;
     text-align: left;
-
+    color: #FFFFFF;
 }
 .custom-collection.card__inner{
     /* height: calc(100% -  var(--custom-collection-image-height)* 3 / 4); */
