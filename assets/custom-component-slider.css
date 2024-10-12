@@ -51,6 +51,18 @@
         margin-left: 0rem;
     }
 }
+@media screen and (min-width: 749px) and (max-width: 1300px) {
+    .custom.slider--tablet.grid--peek.grid--1-col-tablet-down .grid__item, .slider--mobile.grid--peek.grid--1-col-tablet-down .grid__item {
+        width: calc(100% - var(--grid-mobile-horizontal-spacing) - 11rem);
+    }
+    .custom-collection__list-card_content a{
+        font-family: Avenir LT Std;
+        font-size: 26px;
+        font-weight: 400;
+        line-height: 25.2px;
+        text-align: left;
+    }
+}
 @media screen and (max-width: 749px) {
     .custom.slider--tablet.grid--peek.grid--1-col-tablet-down .grid__item, .slider--mobile.grid--peek.grid--1-col-tablet-down .grid__item {
         width: calc(100% - var(--grid-mobile-horizontal-spacing) - 11rem);
