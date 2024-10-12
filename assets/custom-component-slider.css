@@ -6,5 +6,5 @@
     top: 40px;
 }
 .custom-collection-list-card{
-    height: auto;
+    height: auto !important;
 }
