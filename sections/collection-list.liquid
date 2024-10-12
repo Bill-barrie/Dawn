@@ -82,7 +82,7 @@
         {%- endfor -%}
       </ul>
       {%- if show_mobile_slider -%}
-        <div class="slider-buttons">
+        {% comment %} <div class="slider-buttons">
           <button
             type="button"
             class="slider-button slider-button--prev"
@@ -109,7 +109,7 @@
               {{- 'icon-caret.svg' | inline_asset_content -}}
             </span>
           </button>
-        </div>
+        </div> {% endcomment %}
       {%- endif -%}
     </slider-component>
 
