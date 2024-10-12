@@ -11,7 +11,7 @@
 
 @media screen and (min-width: 750px) {
     .custom-grid__item{
-        width: calc(26% - var(--grid-desktop-horizontal-spacing)* 15 / 4) !important;
+        width: calc(26% - var(--grid-desktop-horizontal-spacing)* 3 / 4) !important;
         max-width: calc(50% - var(--grid-desktop-horizontal-spacing) / 2);
     }
 }
