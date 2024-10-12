@@ -13,6 +13,7 @@
 }
 .custom-collection.card__inner{
     height: calc(100% -  var(--custom-collection-image-height)* 3 / 4);
+    max-height: 300px !important;
 }
 @media screen and (min-width: 750px) {
     .custom-grid__item{
