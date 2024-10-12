@@ -46,3 +46,8 @@
         padding-right: 26px;
     }
 }
+@media screen and (max-width: 749px) {
+    .grid--peek.slider .grid__item:first-of-type {
+        margin-left: 0rem;
+    }
+}
