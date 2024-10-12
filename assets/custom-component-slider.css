@@ -53,6 +53,6 @@
 }
 @media screen and (max-width: 749px) {
     .custom.slider--tablet.grid--peek.grid--1-col-tablet-down .grid__item, .slider--mobile.grid--peek.grid--1-col-tablet-down .grid__item {
-        width: calc(100% - var(--grid-mobile-horizontal-spacing) - 11.7rem);
+        width: calc(100% - var(--grid-mobile-horizontal-spacing) - 11rem);
     }
 }
