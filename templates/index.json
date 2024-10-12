@@ -63,13 +63,20 @@
           "settings": {
             "collection": "automated-collection"
           }
+        },
+        "featured_collection_9wQmhc": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "hydrogen"
+          }
         }
       },
       "block_order": [
         "featured_collection_Nxpa7C",
         "featured_collection_kpXA8r",
         "featured_collection_jFNGhP",
-        "featured_collection_Y8zHr9"
+        "featured_collection_Y8zHr9",
+        "featured_collection_9wQmhc"
       ],
       "settings": {
         "title": "Collections",
