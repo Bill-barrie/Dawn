@@ -8,7 +8,7 @@
 .custom-collection-list-card{
     height: auto!important;
 }
-.custom.media>img{
+.card__media__img{
     height: auto;
 }
 @media screen and (min-width: 750px) {
