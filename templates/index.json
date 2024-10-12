@@ -36,71 +36,9 @@
         "padding_top": 44,
         "padding_bottom": 36
       }
-    },
-    "collection_list_D6Vwiw": {
-      "type": "collection-list",
-      "blocks": {
-        "featured_collection_qrXCnM": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "hydrogen"
-          }
-        },
-        "featured_collection_eMGzRG": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "automated-collection"
-          }
-        },
-        "featured_collection_wCmnVx": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "hydrogen"
-          }
-        },
-        "featured_collection_cKdkKn": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "automated-collection"
-          }
-        },
-        "featured_collection_4fm9qY": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "automated-collection"
-          }
-        },
-        "featured_collection_p4UKcp": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "automated-collection"
-          }
-        }
-      },
-      "block_order": [
-        "featured_collection_qrXCnM",
-        "featured_collection_eMGzRG",
-        "featured_collection_wCmnVx",
-        "featured_collection_cKdkKn",
-        "featured_collection_4fm9qY",
-        "featured_collection_p4UKcp"
-      ],
-      "settings": {
-        "title": "Collections",
-        "heading_size": "h2",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "color_scheme": "",
-        "show_view_all": false,
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
-    "featured_collection",
-    "collection_list_D6Vwiw"
+    "featured_collection"
   ]
 }
