@@ -9,7 +9,7 @@
     height: auto!important;
 }
 .card__media__img{
-    height: auto;
+    height: auto !important;
 }
 @media screen and (min-width: 750px) {
     .custom-grid__item{
