@@ -8,7 +8,9 @@
 .custom-collection-list-card{
     height: auto!important;
 }
-
+.custom.media>img{
+    height: auto;
+}
 @media screen and (min-width: 750px) {
     .custom-grid__item{
         width: calc(26% - var(--grid-desktop-horizontal-spacing)* 3 / 4) !important;
