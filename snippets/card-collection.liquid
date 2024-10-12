@@ -50,6 +50,7 @@
       {%- if card_collection.featured_image -%}
         <div class="card__media">
           <div class="custom media media--transparent media--hover-effect">
+            <div>
             <img  
               srcset="
                 {%- if card_collection.featured_image.width >= 165 -%}{{ card_collection.featured_image | image_url: width: 165 }} 165w,{%- endif -%}
@@ -73,6 +74,7 @@
               loading="lazy"
               class="motion-reduce card__media__img"
             >
+            </div>
           </div>
         </div>
       {%- endif -%}
