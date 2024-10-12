@@ -1,4 +1,7 @@
-.custom.collection-list__item{
-    
+.custom-collection-list-card-wrapper{
     position: relative;
+}
+.custom-collection__list-card_content{
+    position:absolute;
+    top: 40px;
 }
