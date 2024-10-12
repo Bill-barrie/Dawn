@@ -11,6 +11,9 @@
 .card__media__img{
     height: auto!important;
 }
+.custom-collection__list-card_content .card__information{
+    padding: 0 !important;
+}
 .custom-collection.card__inner{
     /* height: calc(100% -  var(--custom-collection-image-height)* 3 / 4); */
     max-height: 300px !important;
