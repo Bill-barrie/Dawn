@@ -97,68 +97,10 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "multicolumn_BBECQt": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_mLkezz": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Ellipse_24.png",
-            "title": "",
-            "text": "<p>I've been shopping on Debutify Baby for my little Elia for the past 6 months and I'm always amazed by the quality of their products and how consistently good they are with their service!</p>",
-            "link_label": "Anderson tyla",
-            "link": ""
-          }
-        },
-        "column_BdhAEi": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Ellipse_22.png",
-            "title": "",
-            "text": "<p>I've been shopping on Debutify Baby for my little Elia for the past 6 months and I'm always amazed by the quality of their products and how consistently good they are with their service!</p>",
-            "link_label": "Anderson tyla",
-            "link": ""
-          }
-        },
-        "column_VBgpcP": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Ellipse_23.png",
-            "title": "",
-            "text": "<p>I've been shopping on Debutify Baby for my little Elia for the past 6 months and I'm always amazed by the quality of their products and how consistently good they are with their service!</p>",
-            "link_label": "Anderson tyla",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_mLkezz",
-        "column_BdhAEi",
-        "column_VBgpcP"
-      ],
-      "settings": {
-        "title": "Multicolumn",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "Button label",
-        "description": "We have earned the love and trust of parents from all around the world",
-        "button_link": "",
-        "color_scheme": "",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
     "featured_collection",
-    "collection_list_egVaY4",
-    "multicolumn_BBECQt"
+    "collection_list_egVaY4"
   ]
 }
