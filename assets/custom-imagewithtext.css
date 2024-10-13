@@ -74,5 +74,13 @@ padding-top: 117px;
         margin-left: auto;
         margin-right: auto;
     }
+    .btn-img-txt{
+        background-color: #8E5D2E;
+        width: 121;
+        height: 39;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 24px;
+    }
 }
 
