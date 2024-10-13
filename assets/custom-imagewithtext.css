@@ -1,0 +1,22 @@
+.img-txt-overlay-contaner{
+    height: 300px;
+}
+.img-txt-overlay-title>p{
+    font-family: Calibri;
+    font-size: 55.62px;
+    font-weight: 300;
+    line-height: 67.85px;
+    text-align: left;
+    color:#8E5D2E    
+}
+.img-txt-overlay-description>p{
+    font-family: Avenir LT Std;
+    font-size: 27.81px;
+    font-weight: 400;
+    line-height: 33.37px;
+    text-align: center;
+    color:#8E5D2E    
+}
+.img-txt-overlay-content{
+    display: block;
+}
