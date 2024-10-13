@@ -71,6 +71,8 @@ padding-top: 117px;
     }
     .img-txt-overlay-txt{
         width: 259px;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
