@@ -58,9 +58,9 @@ padding-top: 117px;
     text-align: center;
 
     }
-    .img-txt-overlay-content{
-        display: block;
-        margin-top: 34px;
+    .img-txt-overlay-contaner{
+        height: 448px;
+        padding-top: 34px;
     }
 }
 
