@@ -8,7 +8,9 @@ padding-top: 117px;
     z-index: -1;
 
 }
-
+.page-width1{
+    margin: 0 165px;
+}
 .img-txt-overlay-title>p{
     font-family: Calibri;
     font-size: 55.62px;
@@ -62,8 +64,8 @@ padding-top: 117px;
         height: 448px;
         padding-top: 34px;
     }
-    .page-width{
-        padding: 0 25px;
+    .page-width1{
+        margin: 0 165px;
     }
 }
 
