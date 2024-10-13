@@ -9,14 +9,16 @@
                 {{ section.settings.title }}
             </p>
         </div>
-        <div class="img-txt-overlay-description">
+        <div class="img-txt-overlay-description" style="background-image: url('{{ section.settings.image| image_url: width:300 }}');
+    background-size: cover;
+    background-position: center;">
             <p>
                 {{ section.settings.description }}
             </p>
         </div>
             <button class="btn-img-txt"> SHOP NOW</button>
     </div>
-    {{ section.settings.image | image_url: width:1600 | image_tag }}
+    {% comment %} {{ section.settings.image | image_url: width:1600 | image_tag }} {% endcomment %}
    
 </div>
 {% schema %}
