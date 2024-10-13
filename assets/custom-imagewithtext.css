@@ -50,6 +50,11 @@ padding-top: 117px;
     width: auto;
 }
 @media screen and (max-width: 700px) {
+    .page-width1{
+        margin: 0 50px;
+    }
+}
+@media screen and (max-width: 700px) {
     .img-txt-overlay-title>p{
         font-family: Calibri;
     font-size: 32px;
