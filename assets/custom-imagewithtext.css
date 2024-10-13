@@ -1,5 +1,6 @@
 .img-txt-overlay-contaner{
 height: 448px;
+padding-top: 117px;
 }
 .img-txt-overlay-contaner>img{
     position: absolute;
@@ -30,7 +31,6 @@ height: 448px;
 }
 .img-txt-overlay-content{
     display: block;
-    margin-top: 117px;
 }
 .btn-img-txt{
     display: block;
