@@ -3,10 +3,6 @@
 
 {% endstyle %}
 <div class="page-width img-txt-overlay-contaner ">
-  {% comment %} {% if section.settings.iamge !=blank %} {% endcomment %}
-    {{ section.settings.image | image_url: width:1600 | image_tag }}
-    {% comment %} {{ block.settings.image | image_url: width: 80 | image_tag }} {% endcomment %}
-  {% comment %} {% endif %} {% endcomment %}
     <div class="img-txt-overlay-content">
         <div class="img-txt-overlay-title">
             <p>
@@ -22,6 +18,11 @@
             <button class="btn-img-txt"> SHOP NOW</button>
         </div>
     </div>
+  {% comment %} {% if section.settings.iamge !=blank %} {% endcomment %}
+    {{ section.settings.image | image_url: width:1600 | image_tag }}
+    {% comment %} {{ block.settings.image | image_url: width: 80 | image_tag }} {% endcomment %}
+  {% comment %} {% endif %} {% endcomment %}
+   
 </div>
 {% schema %}
 {
