@@ -44,6 +44,9 @@ padding-top: 117px;
     margin-right: auto;
     margin-top: 24px;
 }
+.img-txt-overlay-txt{
+    width: 259px;
+}
 @media screen and (max-width: 700px) {
     .img-txt-overlay-title>p{
         font-family: Calibri;
