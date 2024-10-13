@@ -2,9 +2,10 @@
 {% style %}
 
 {% endstyle %}
-<div class="page-width img-txt-overlay-contaner "style="background-image: url('{{ section.settings.image| image_url: width:300 }}');
-    background-size: cover;
-    background-position: center;">
+<div class="page-width img-txt-overlay-contaner ">
+    <div style="background-image: url('{{ section.settings.image| image_url: width:300 }}');
+        background-size: cover;
+        background-position: center;">
     <div class="img-txt-overlay-content">
         <div class="img-txt-overlay-title">
             <p>
@@ -19,7 +20,7 @@
             <button class="btn-img-txt"> SHOP NOW</button>
     </div>
     {% comment %} {{ section.settings.image | image_url: width:1600 | image_tag }} {% endcomment %}
-   
+</div>
 </div>
 {% schema %}
 {
