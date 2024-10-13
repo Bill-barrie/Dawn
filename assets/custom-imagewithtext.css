@@ -3,11 +3,10 @@
 .img-txt-overlay-contaner>img{
     position: absolute;
     top: 0;    
-}
-.img-txt-image{
     z-index: -1;
-    
+
 }
+
 .img-txt-overlay-title>p{
     font-family: Calibri;
     font-size: 55.62px;
