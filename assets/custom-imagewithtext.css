@@ -45,7 +45,7 @@ padding-top: 117px;
     margin-top: 24px;
 }
 .img-txt-overlay-txt{
-    width: 259px;
+    width: auto;
 }
 @media screen and (max-width: 700px) {
     .img-txt-overlay-title>p{
@@ -68,6 +68,9 @@ padding-top: 117px;
     }
     .page-width1{
         margin: 0 25px;
+    }
+    .img-txt-overlay-txt{
+        width: 259px;
     }
 }
 
