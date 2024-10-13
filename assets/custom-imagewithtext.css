@@ -1,5 +1,4 @@
 .img-txt-overlay-contaner{
-    position: relative;
 }
 .img-txt-overlay-title>p{
     font-family: Calibri;
@@ -23,7 +22,6 @@
 }
 .img-txt-overlay-content{
     display: block;
-    position:absolute;
     top: 200px;
     left:800px;
 }
@@ -33,7 +31,6 @@
     background-color: #8E5D2E;
     width: 150px;
     height: 49px;
-    position: absolute;
     left: 215px;
-    top: 50px;
+    top: 250px;
 }
