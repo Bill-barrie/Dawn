@@ -27,3 +27,8 @@
     top: 200px;
     left:800px;
 }
+.btn-img-txt{
+    display: block;
+    color: white;
+    background-color: #8E5D2E;
+}
