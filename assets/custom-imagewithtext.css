@@ -2,7 +2,7 @@
 }
 .img-txt-overlay-contaner>img{
     position: absolute;
-    
+    top: 0;    
 }
 .img-txt-overlay-title>p{
     font-family: Calibri;
