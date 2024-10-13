@@ -36,9 +36,17 @@
         "padding_top": 44,
         "padding_bottom": 36
       }
+    },
+    "img_txt_jeY6Gq": {
+      "type": "Img-txt",
+      "settings": {
+        "title": "title",
+        "description": "description"
+      }
     }
   },
   "order": [
-    "featured_collection"
+    "featured_collection",
+    "img_txt_jeY6Gq"
   ]
 }
