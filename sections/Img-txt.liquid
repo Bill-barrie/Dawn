@@ -2,16 +2,16 @@
 {% style %}
 
 {% endstyle %}
-<div class="page-width img-txt-overlay-contaner ">
+<div class="page-width img-txt-overlay-contaner "style="background-image: url('{{ section.settings.image| image_url: width:300 }}');
+    background-size: cover;
+    background-position: center;">
     <div class="img-txt-overlay-content">
         <div class="img-txt-overlay-title">
             <p>
                 {{ section.settings.title }}
             </p>
         </div>
-        <div class="img-txt-overlay-description" style="background-image: url('{{ section.settings.image| image_url: width:300 }}');
-    background-size: cover;
-    background-position: center;">
+        <div class="img-txt-overlay-description" >
             <p>
                 {{ section.settings.description }}
             </p>
