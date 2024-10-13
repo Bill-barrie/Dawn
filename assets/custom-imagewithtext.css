@@ -7,7 +7,9 @@
     font-weight: 300;
     line-height: 67.85px;
     text-align: center;
+    margin: 0;
     color:#8E5D2E    
+
 }
 .img-txt-overlay-description>p{
     font-family: Avenir LT Std;
@@ -15,7 +17,9 @@
     font-weight: 400;
     line-height: 33.37px;
     text-align: center;
-    color:#8E5D2E    
+    margin: 0;
+    color:#8E5D2E  
+      
 }
 .img-txt-overlay-content{
     display: block;
