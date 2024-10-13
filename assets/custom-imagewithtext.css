@@ -33,4 +33,7 @@
     background-color: #8E5D2E;
     width: 150px;
     height: 49px;
+    position: absolute;
+    left: 215px;
+    top: 50px;
 }
