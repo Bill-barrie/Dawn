@@ -1,5 +1,5 @@
 .img-txt-overlay-contaner{
-    height: 300px;
+    position: relative;
 }
 .img-txt-overlay-title>p{
     font-family: Calibri;
@@ -23,4 +23,6 @@
 }
 .img-txt-overlay-content{
     display: block;
+    position:absolute;
+    top: 200px;
 }
