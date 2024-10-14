@@ -10,5 +10,8 @@
     color: #8E5D2E;    
 }
 .custom-add-to-cart-product_card{
-    
+
+}
+.custom-product-grid.grid{
+    column-gap: 30.5px
 }
