@@ -18,6 +18,10 @@
 .custom.grid--4-col-desktop .grid__item{
     width: calc(23% - var(--grid-desktop-horizontal-spacing)* 3 / 4);
 }
+.custom-product.card__information{
+    padding-bottom: 24px !important;
+    padding-top: 24px !important;
+}
 @media screen and (max-width: 750px) {
     .custom-product-grid.grid{
         column-gap: 9.69px
