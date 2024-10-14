@@ -92,7 +92,12 @@
     .custom.grid__item {
         max-width: calc(47% - var(--grid-mobile-horizontal-spacing) / 2);
     }
-
+    .custom-product.card__information {
+        padding-bottom: 11px !important;
+        padding-top: 10px !important;
+        grid-row-start: 1 !important;
+        padding-left: 6px !important;
+    }
 }
 @media screen and (min-width: 990px) {
     .grid--4-col-desktop .custom.grid__item {
