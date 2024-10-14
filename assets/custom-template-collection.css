@@ -124,7 +124,7 @@
     }
 }
 @media screen and (min-width: 990px) and (max-width: 1170px) {
-    .grid--2-col-tablet-down .custom.grid__item {
-        width: calc(48% - var(--grid-desktop-horizontal-spacing) / 2);
+    .custom-product-grid.grid{
+        column-gap: 20.5px
     }
 }
