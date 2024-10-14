@@ -15,6 +15,9 @@
 .custom-product-grid.grid{
     column-gap: 30.5px
 }
+.custom.grid--4-col-desktop .grid__item{
+    width: calc(23% - var(--grid-desktop-horizontal-spacing)* 3 / 4);
+}
 @media screen and (max-width: 750px) {
     .custom-product-grid.grid{
         column-gap: 9.69px
