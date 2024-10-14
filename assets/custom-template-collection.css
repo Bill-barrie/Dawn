@@ -42,7 +42,7 @@
     color: #F8A300;
 }
 .custom-product.price{
-    margin: 0;
+    margin: 0 !important;
 }
 @media screen and (max-width: 750px) {
     .custom-product-grid.grid{
