@@ -26,9 +26,7 @@
 .custom-product.card__content{
     background-color : #D9D9D92B
 }
-.custom-prodcut.card__content{
-    grid-row-start: 1;
-}
+
 .custom-product-grid.grid{
     column-gap: 30.5px
 }
@@ -38,6 +36,7 @@
 .custom-product.card__information{
     padding-bottom: 24px !important;
     padding-top: 24px !important;
+    grid-row-start: 1 !important;
 }
 .custom-product.card__information>h3{
     font-family: Avenir LT Std;
