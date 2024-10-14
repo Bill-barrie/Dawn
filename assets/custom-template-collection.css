@@ -41,6 +41,9 @@
 .custom-product.rating>span{
     color: #F8A300;
 }
+.custom-product.price{
+    margin: 0;
+}
 @media screen and (max-width: 750px) {
     .custom-product-grid.grid{
         column-gap: 9.69px
