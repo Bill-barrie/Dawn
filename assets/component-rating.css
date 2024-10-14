@@ -19,6 +19,10 @@
   --letter-spacing: 0.7;
   --font-size: 1.4;
 }
+.card-wrapper .custom.rating-star {
+  --letter-spacing: 0.7;
+  --font-size: 2.5;
+}
 .custom.rating-star {
   --color-rating-star: #f8a300;
   --percent: calc(
