@@ -24,7 +24,7 @@
     }
 }
 @media screen and (min-width: 990px) {
-    .custom.grid--4-col-desktop .grid__item {
+    .grid--4-col-desktop .custom.grid__item {
         width: calc(23% - var(--grid-desktop-horizontal-spacing)* 3 / 4) !important;
         max-width: calc(25% - var(--grid-desktop-horizontal-spacing)* 3 / 4);
     }
