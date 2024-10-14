@@ -23,3 +23,9 @@
         column-gap: 9.69px
     }
 }
+@media screen and (min-width: 990px) {
+    .custom.grid--4-col-desktop .grid__item {
+        width: calc(23% - var(--grid-desktop-horizontal-spacing)* 3 / 4);
+        max-width: calc(25% - var(--grid-desktop-horizontal-spacing)* 3 / 4);
+    }
+}
