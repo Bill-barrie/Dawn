@@ -117,10 +117,9 @@
     }
 
 }
-@media screen and (max-width: 989px) {
-    .grid--4-col-desktop .custom.grid__item {
-        width: calc(23% - var(--grid-desktop-horizontal-spacing)* 3 / 4) !important;
-        max-width: calc(25% - var(--grid-desktop-horizontal-spacing)* 3 / 4);
-    }
 
+@media screen and (min-width: 750px) and (max-width: 989px) {
+    .grid--2-col-tablet-down .custom.grid__item {
+        width: calc(48% - var(--grid-desktop-horizontal-spacing) / 2);
+    }
 }
