@@ -9,7 +9,7 @@
 
 .product .custom.rating-star {
   --letter-spacing: 0.8;
-  --font-size: 3;
+  --font-size: 3 !important;
 }
 .product .rating-star {
   --letter-spacing: 0.8;
