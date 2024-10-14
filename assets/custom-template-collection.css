@@ -98,6 +98,14 @@
         grid-row-start: 1 !important;
         padding-left: 6px !important;
     }
+    .custom-product.card__information>h3 {
+        font-family: Avenir LT Std;
+        font-size: 13.68px;
+        font-weight: 400;
+        line-height: 16.11px;
+        text-align: left;
+        color: ##000000;
+    }
 }
 @media screen and (min-width: 990px) {
     .grid--4-col-desktop .custom.grid__item {
