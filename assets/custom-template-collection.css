@@ -77,7 +77,8 @@
     padding-top: 14px;
     padding-bottom: 14px;
     background-color: #8E5D2E;
-    border: 1px solid #8E5D2E
+    border: none;
+    
 }
 
 @media screen and (max-width: 750px) {
