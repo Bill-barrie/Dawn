@@ -22,6 +22,7 @@
     line-height: 24.6px;
     text-align: center;
     color: #8E5D2E;
+    margin-bottom: 17px;
 }
 .custom-product.card__content{
     background-color : #D9D9D92B
@@ -37,6 +38,7 @@
     padding-bottom: 24px !important;
     padding-top: 24px !important;
     grid-row-start: 1 !important;
+    padding-left: 14px;
 }
 .custom-product.card__information>h3{
     font-family: Avenir LT Std;
