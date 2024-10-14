@@ -21,7 +21,7 @@
 }
 .card-wrapper .custom.rating-star {
   --letter-spacing: 0.7;
-  --font-size: 2.5;
+  --font-size: 2;
 }
 .custom.rating-star {
   --color-rating-star: #f8a300;
