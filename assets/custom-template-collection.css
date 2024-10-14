@@ -80,6 +80,9 @@
     border: none;
     
 }
+.custom-product.center{
+    margin-top: 68px;
+}
 
 @media screen and (max-width: 750px) {
     .custom-product-grid.grid{
