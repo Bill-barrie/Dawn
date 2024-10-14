@@ -90,8 +90,7 @@
         column-gap: 9.69px
     }
     .custom.grid__item {
-        width: calc(23% - var(--grid-desktop-horizontal-spacing)* 3 / 4) !important;
-        max-width: calc(25% - var(--grid-desktop-horizontal-spacing)* 3 / 4);
+        max-width: calc(47% - var(--grid-mobile-horizontal-spacing) / 2);
     }
 
 }
