@@ -86,7 +86,7 @@
 }
 
 @media screen and (max-width: 750px) {
-    .custom-product.slider-component.page-width{
+    slider-component.custom-product.page-width{
         padding: 0 26px !important;
     }
     .custom-product-grid.grid{
