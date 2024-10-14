@@ -93,7 +93,7 @@
         column-gap: 9.69px
     }
     .custom.grid__item {
-        max-width: calc(47% - var(--grid-mobile-horizontal-spacing) / 2);
+        max-width: calc(49% - var(--grid-mobile-horizontal-spacing) / 2);
     }
     .custom-product.card__information {
         padding-bottom: 11px !important;
