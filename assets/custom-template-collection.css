@@ -67,6 +67,14 @@
     line-height: 20.73px;
     color: #8E5D2E;
 }
+.custom-product.center>a{
+    font-family: Avenir LT Std;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28.8px;
+    text-align: left;
+
+}
 @media screen and (max-width: 750px) {
     .custom-product-grid.grid{
         column-gap: 9.69px
